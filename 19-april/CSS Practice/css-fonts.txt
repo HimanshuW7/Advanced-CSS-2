@@ -1,0 +1,23 @@
+Generic Font Family	Examples of Font Names
+Serif:
+Times New Roman
+Georgia
+Garamond
+
+Sans-serif:
+Arial
+Verdana
+Helvetica
+
+Monospace:
+Courier New
+Lucida Console
+Monaco
+
+Cursive:
+Brush Script MT
+Lucida Handwriting
+
+Fantasy:
+Copperplate
+Papyrus
