@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Transform</title>
+    <style>
+      div {
+        border: 2px solid red;
+        padding: 8px;
+      }
+
+      a {
+        color: darkorange;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: darkkhaki;
+        text-decoration: line-through; /* Strike Through */
+      }
+
+      p {
+        text-indent: 50px; /* The text-indent property is used to specify the indentation of the first line of a text */
+        text-align: justify;
+        letter-spacing: 5px;
+        line-height: 6;
+      }
+
+      h1 {
+        text-align: center;
+        color: hotpink;
+        text-transform: uppercase;
+        line-height: 3;
+      }
+
+      #dir {
+        direction: rtl;
+        direction: ltr;
+        unicode-bidi: bidi-override; /* It's like typed in urdu typed from backwards */
+      }
+
+      h2 {
+        text-decoration: underline;
+        word-spacing: 50px;
+      }
+
+      h3 {
+        /* text-decoration: overline; */
+        text-shadow: 2px 2px 5px red;
+      }
+
+      span {
+        text-transform: capitalize;
+        white-space: pre-line;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: normal;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>This is hello world</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit
+        error aliquid dolore voluptates iure? Blanditiis, earum officiis
+        aperiam, commodi voluptatibus labore magni nam deserunt animi libero
+        dolorem aspernatur beatae, reprehenderit error suscipit. Voluptates!
+        <a href="_blank">Try it yourself</a>
+      </p>
+    </div>
+
+    <p id="dir">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ea
+      quaerat iusto recusandae illum!
+    </p>
+
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <span
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti
+      facere doloremque cupiditate eos, distinctio quidem sapiente rerum sed
+      nemo repellat harum libero repellendus velit, ex et debitis architecto
+      quibusdam quasi dignissimos omnis? Sit exercitationem illo ducimus, libero
+      ipsum eligendi? Rem vitae, voluptatem perferendis minus aut cum hic illum
+      nobis architecto voluptas deserunt pariatur debitis ipsam praesentium
+      repudiandae in nesciunt possimus at unde! Repudiandae?</span
+    >
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple" />
+  <title>CSS Fonts</title>
+  <style>
+    h1 {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 10vw;
+      /* Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm. */
+    }
+
+    #p-1 {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    #p-2 {
+      font-variant: small-caps;
+      /* font-variant: normal; */
+      font-size: 2.5em;
+      /* The size can be calculated from pixels to em using this formula: pixels/16=em */
+    }
+
+    #p-3 {
+      font-family: 'Sofia';
+      text-shadow: 4px 4px 4px blue;
+      font-style: italic;
+      font-size: 2rem;
+    }
+
+    #p-4 {
+      font-family: 'Sofia';
+      font-size: 30px;
+    }
+
+    #p-5 {
+      /* Shorthand */
+      /* font-style
+        font-variant
+        font-weight
+        font-size/line-height
+        font-family */
+      font: italic small-caps bold 12px/30px Georgia, serif;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Hello World</h1>
+  <h2 class="font-effect-neon">Neon Effect</h1>
+    <h2 class="font-effect-outline">Outline Effect</h1>
+      <h2 class="font-effect-emboss">Emboss Effect</h1>
+        <h2 class="font-effect-shadow-multiple">Multiple Shadow Effect</h1>
+          <p id="p-1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, beatae
+            impedit. Velit.
+          </p>
+          <p id="p-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, beatae
+            impedit. Velit.
+          </p>
+          <p id="p-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, beatae
+            impedit. Velit.
+          </p>
+          <p id="p-4" class="font-effect-fire">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, beatae
+            impedit. Velit.
+          </p>
+          <p id="p-5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, beatae
+            impedit. Velit.
+          </p>
+</body>
+
+</html>
