@@ -1,0 +1,251 @@
+# Markdown Cheatsheet for CSS Features
+
+## [Cheatsheet Markdown](https://www.markdownguide.org/cheat-sheet/)
+
+*Ctrl + shift + v* **For Preview*
+
+1. *CSS Background:*
+
+* background-color
+* background-image
+* background-repeat
+* background-attachment
+* background-position
+* background (shorthand property)
+* `background: red no-repeat center center/cover;`
+
+2. *Font and Font Effects:*
+
+* Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+* Google have also enabled different font effects that you can use. First add effect=effectname to the Google API, then add a special class name to the element that is going to use the special effect. The class name always starts with font-effect- and ends with the effectname.
+* `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">` `font-family: "Sofia", sans-serif;`
+* For More effects **[Reference](https://www.w3schools.com/css/css_font_google.asp)**
+
+3. *Text Properties:*
+
+* The vertical-align property sets the vertical alignment of an element.
+* The text-transform property is used to specify uppercase and lowercase or capitalize letters in a text.
+* The text-indent property is used to specify the indentation of the first line of a text.
+* The letter-spacing property is used to specify the space between the characters in a text.
+* The line-height property is used to specify the space between lines.
+* The word-spacing property is used to specify the space between the words in a text.
+* The white-space property specifies how white-space inside an element is handled.
+* The text-shadow property adds shadow to text.
+* In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px) and blur (2px).
+* `text-shadow: 2px 2px 2px red;`
+* For More **[Reference](https://www.w3schools.com/css/css_text.asp)**
+
+4. *CSS Outline:*
+
+* The outline-width property specifies the width of the outline, and can have one of the following values:
+thin (typically 1px)
+medium (typically 3px)
+thick (typically 5px)
+A specific size (in px, pt, cm, em, etc)
+* outline-style
+* outline-color
+* outline-width
+* outline-offset
+* `outline: 5px solid yellow;`
+* The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+* `outline-offset: 15px;`
+* For More **[Reference](https://www.w3schools.com/css/css_outline.asp)**
+
+5. *Links:*
+
+* In addition, links can be styled differently depending on what state they are in.
+* The four links states are:
+* a:link - a normal, unvisited link
+* a:visited - a link the user has visited
+* a:hover - a link when the user mouses over it
+* a:active - a link the moment it is clicked
+
+* ``` Some Properties:
+      display: inline-block; /*We can add padding with it*/
+      display: block; /*See all results*/
+      display: inline; /*We can't add padding with it*/
+  ```
+
+* Mouse over the words to change the cursor.
+
+> auto
+> crosshair
+> default
+> e-resize
+> help
+> move
+> n-resize
+> ne-resize
+> nw-resize
+> pointer
+> progress
+> s-resize
+> se-resize
+> sw-resize
+> text
+> w-resize
+> wait
+
+* **Synatx:** `cursor:auto;`
+For More **[Reference](https://www.w3schools.com/css/css_link.asp)**
+
+6. *Lists:*
+
+* The list-style-image property specifies an image as the list item marker.
+* `list-style-type: lower-roman;`
+* `list-style-type: decimal;`
+* `list-style: alpha;`
+* When using the shorthand property, the order of the property values are:
+
+list-style-type (if a list-style-image is specified, the value of this property will be displayed if the image for some reason cannot be displayed)
+list-style-position (specifies whether the list-item markers should appear inside or outside the content flow)
+list-style-image (specifies an image as the list item marker)
+If one of the property values above are missing, the default value for the missing property will be inserted, if any.
+
+`list-style: circle inside url('img_marker.png');`
+
+* `ul {
+  list-style-image: url('sqpurple.gif');
+}`
+* For More **[Reference](https://www.w3schools.com/css/css_table.asp)**
+
+7. *Tables:*
+
+* The border-collapse property sets whether the table borders should be collapsed into a single border.
+* For zebra-striped tables, use the **nth-child()** selector and add a background-color to all **even** (or **odd**) table rows.
+* A responsive table will display a horizontal scroll bar if the screen is too small to display the full content.
+* Add a container element (like `<div>`) with overflow-x:auto around the `<table>` element to make it responsive.
+
+8. *Display:*
+
+* The display property is the most important CSS property for controlling layout.
+* The display property specifies if/how an element is displayed.
+* Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+
+* **Block-level Elements**
+
+* A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+* Examples of block-level elements:
+
+* `<div>`
+* `<h1> - <h6>`
+* `<p>`
+* `<form>`
+* `<header>`
+* `<footer>`
+* `<section>`
+
+* **Inline Elements**
+
+* An inline element does not start on a new line and only takes up as much width as necessary.
+
+* `<span>`
+* `<a>`
+* `<img>`
+
+* **Display: none;**
+
+* display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. Take a look at our last example on this page if you want to know how this can be achieved.
+
+* The `<script>` element uses display: none; as default.
+* **Hide an Element - display:none or visibility:hidden?**
+* Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there.
+* `visibility:hidden;` also hides an element.
+* However, the element will still take up the same space as before. The element will be hidden, but still affect the layout.
+* For More **[Reference](https://www.w3schools.com/css/css_display_visibility.asp)**
+
+9. *Max-Width:*
+
+* Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins.
+ **Note**: The problem with the `<div>` above occurs when the browser window is smaller than the width of the element. The browser then adds a horizontal scrollbar to the page.
+
+* Using max-width instead, in this situation, will improve the browser's handling of small windows. This is important when making a site usable on small devices.
+
+10. *Position:*
+
+* **position: sticky;**
+
+* An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like `position:fixed`).
+
+* **Note**: Internet Explorer does not support sticky positioning. Safari requires a **-webkit- prefix** (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+* `div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}`
+
+* **Overlapping Elements**
+* When elements are positioned, they can overlap other elements.
+* The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+* An element can have a positive or negative stack order.
+* `img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}`
+
+11. *Overflow:*
+
+* The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+The overflow property has the following values:
+
+**visible** - Default. The overflow is not clipped. The content renders outside the element's box. (**default**)
+**hidden** - The overflow is clipped, and the rest of the content will be invisible.
+**scroll** - The overflow is clipped, and a scrollbar is added to see the rest of the content.
+**auto** - Similar to scroll, but it adds scrollbars only when necessary.
+
+* **overflow-x and overflow-y**
+* The overflow-x and overflow-y properties specifies whether to change the overflow of content just **horizontally** or **vertically** (or **both**):
+overflow-x specifies what to do with the **left/right** edges of the content.
+overflow-y specifies what to do with the **top/bottom** edges of the content.
+
+12. *Align:*
+
+* **Center Vertically - Using line-height**
+
+* Another trick is to use the line-height property with a value that is equal to the height property.
+
+``` *With Line-height:*
+.center {
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+}
+
+/*If the text has multiple lines, add the following:*/
+
+.center p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+```
+
+``` *With Posistion:*
+.center p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
+``` *With Flex:*
+.center p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```

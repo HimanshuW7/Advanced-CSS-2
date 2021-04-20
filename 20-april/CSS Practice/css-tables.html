@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Tables</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #000;
+      }
+
+      table,
+      td,
+      th {
+        border: 2px solid #000;
+      }
+
+      th {
+        height: 70px;
+      }
+
+      /* tr:nth-child(even) { */
+      tr:nth-child(odd) {
+        background-color: darkcyan;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Hi</th>
+        <th>Another Hi</th>
+        <th>Triple Hi</th>
+      </tr>
+      <tr>
+        <td>Kilogram</td>
+        <td>Lgram</td>
+        <td>Vnram</td>
+      </tr>
+      <tr>
+        <td>My gram</td>
+        <td>Delta gram</td>
+        <td>Uni gram</td>
+      </tr>
+      <tr>
+        <td>Iong</td>
+        <td>Wang</td>
+        <td>Yeong</td>
+      </tr>
+    </table>
+  </body>
+</html>
