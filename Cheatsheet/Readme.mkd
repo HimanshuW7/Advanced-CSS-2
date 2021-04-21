@@ -17,22 +17,35 @@
 2. *Font and Font Effects:*
 
 * Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+
 * Google have also enabled different font effects that you can use. First add effect=effectname to the Google API, then add a special class name to the element that is going to use the special effect. The class name always starts with font-effect- and ends with the effectname.
+
 * `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">` `font-family: "Sofia", sans-serif;`
+
 * For More effects **[Reference](https://www.w3schools.com/css/css_font_google.asp)**
 
 3. *Text Properties:*
 
 * The vertical-align property sets the vertical alignment of an element.
+
 * The text-transform property is used to specify uppercase and lowercase or capitalize letters in a text.
+
 * The text-indent property is used to specify the indentation of the first line of a text.
+
 * The letter-spacing property is used to specify the space between the characters in a text.
+
 * The line-height property is used to specify the space between lines.
+
 * The word-spacing property is used to specify the space between the words in a text.
+
 * The white-space property specifies how white-space inside an element is handled.
+
 * The text-shadow property adds shadow to text.
+
 * In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px) and blur (2px).
+
 * `text-shadow: 2px 2px 2px red;`
+
 * For More **[Reference](https://www.w3schools.com/css/css_text.asp)**
 
 4. *CSS Outline:*
@@ -42,13 +55,18 @@ thin (typically 1px)
 medium (typically 3px)
 thick (typically 5px)
 A specific size (in px, pt, cm, em, etc)
+
 * outline-style
 * outline-color
 * outline-width
 * outline-offset
+
 * `outline: 5px solid yellow;`
+
 * The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+
 * `outline-offset: 15px;`
+
 * For More **[Reference](https://www.w3schools.com/css/css_outline.asp)**
 
 5. *Links:*
@@ -87,11 +105,13 @@ A specific size (in px, pt, cm, em, etc)
 > wait
 
 * **Synatx:** `cursor:auto;`
+
 For More **[Reference](https://www.w3schools.com/css/css_link.asp)**
 
 6. *Lists:*
 
 * The list-style-image property specifies an image as the list item marker.
+
 * `list-style-type: lower-roman;`
 * `list-style-type: decimal;`
 * `list-style: alpha;`
@@ -107,22 +127,30 @@ If one of the property values above are missing, the default value for the missi
 * `ul {
   list-style-image: url('sqpurple.gif');
 }`
-* For More **[Reference](https://www.w3schools.com/css/css_table.asp)**
+
+* For More **[Reference](https://www.w3schools.com/css/css_list.asp)**
 
 7. *Tables:*
 
 * The border-collapse property sets whether the table borders should be collapsed into a single border.
+
 * For zebra-striped tables, use the **nth-child()** selector and add a background-color to all **even** (or **odd**) table rows.
+
 * A responsive table will display a horizontal scroll bar if the screen is too small to display the full content.
+
 * Add a container element (like `<div>`) with overflow-x:auto around the `<table>` element to make it responsive.
+
+* For More **[Reference](https://www.w3schools.com/css/css_table.asp)**
 
 8. *Display:*
 
 * The display property is the most important CSS property for controlling layout.
+
 * The display property specifies if/how an element is displayed.
+
 * Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
 
-* **Block-level Elements**
+* **Block-level Elements:**
 
 * A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
 
@@ -136,7 +164,7 @@ If one of the property values above are missing, the default value for the missi
 * `<footer>`
 * `<section>`
 
-* **Inline Elements**
+* **Inline Elements:**
 
 * An inline element does not start on a new line and only takes up as much width as necessary.
 
@@ -149,28 +177,36 @@ If one of the property values above are missing, the default value for the missi
 * display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. Take a look at our last example on this page if you want to know how this can be achieved.
 
 * The `<script>` element uses display: none; as default.
+
 * **Hide an Element - display:none or visibility:hidden?**
+
 * Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there.
 * `visibility:hidden;` also hides an element.
 * However, the element will still take up the same space as before. The element will be hidden, but still affect the layout.
+
 * For More **[Reference](https://www.w3schools.com/css/css_display_visibility.asp)**
 
 9. *Max-Width:*
 
 * Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. The element will take up the specified width, and the remaining space will be split equally between the two margins.
+
  **Note**: The problem with the `<div>` above occurs when the browser window is smaller than the width of the element. The browser then adds a horizontal scrollbar to the page.
 
 * Using max-width instead, in this situation, will improve the browser's handling of small windows. This is important when making a site usable on small devices.
 
+* Using max-width instead, in this situation, will improve the browser's handling of small windows. This is important when making a site usable on small devices.
+
+* For More **[Reference](https://www.w3schools.com/css/css_max-width.asp)**
+
 10. *Position:*
 
-* **position: sticky;**
+* **`position: sticky;`**
 
 * An element with position: sticky; is positioned based on the user's scroll position.
 
 A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like `position:fixed`).
 
-* **Note**: Internet Explorer does not support sticky positioning. Safari requires a **-webkit- prefix** (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
+* **Note:** Internet Explorer does not support sticky positioning. Safari requires a **-webkit- prefix** (see example below). You must also specify at least one of top, right, bottom or left for sticky positioning to work.
 
 * `div.sticky {
   position: -webkit-sticky; /* Safari */
@@ -180,16 +216,22 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
   border: 2px solid #4CAF50;
 }`
 
-* **Overlapping Elements**
+* **Overlapping Elements:**
+
 * When elements are positioned, they can overlap other elements.
+
 * The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+
 * An element can have a positive or negative stack order.
+
 * `img {
   position: absolute;
   left: 0px;
   top: 0px;
   z-index: -1;
 }`
+
+* For More **[Reference](https://www.w3schools.com/css/css_positioning.asp)**
 
 11. *Overflow:*
 
@@ -203,13 +245,16 @@ The overflow property has the following values:
 **auto** - Similar to scroll, but it adds scrollbars only when necessary.
 
 * **overflow-x and overflow-y**
+
 * The overflow-x and overflow-y properties specifies whether to change the overflow of content just **horizontally** or **vertically** (or **both**):
 overflow-x specifies what to do with the **left/right** edges of the content.
 overflow-y specifies what to do with the **top/bottom** edges of the content.
 
+* For More **[Reference](https://www.w3schools.com/css/css_overflow.asp)**
+
 12. *Align:*
 
-* **Center Vertically - Using line-height**
+* **Center Vertically - Using line-height:**
 
 * Another trick is to use the line-height property with a value that is equal to the height property.
 
@@ -249,3 +294,375 @@ overflow-y specifies what to do with the **top/bottom** edges of the content.
   transform: translate(-50%, -50%);
 }
 ```
+
+* For More **[Reference](https://www.w3schools.com/css/css_align.asp)**
+
+13. *Combinators:*
+
+* A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+There are four different combinators in CSS:
+
+* descendant selector **(space)**
+* child selector **(>)**
+* adjacent sibling selector **(+)**
+* general sibling selector **(~)**
+
+**Descendant Selector:**
+
+The descendant selector matches all elements that are descendants of a specified element.
+
+``` *Example:*
+div p {
+  background-color: yellow;
+}
+```
+
+**Child Selector (>):**
+
+The child selector selects all elements that are the children of a specified element.
+
+``` *Example:*
+div > p {
+  background-color: yellow;
+}
+```
+
+**Adjacent Sibling Selector (+):**
+
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+``` *Example:*
+div + p {
+  background-color: yellow;
+}
+```
+
+**General Sibling Selector (~):**
+
+The general sibling selector selects all elements that are siblings of a specified element.
+
+``` *Example:*
+div ~ p {
+  background-color: yellow;
+}
+```
+
+* For More **[Reference](https://www.w3schools.com/css/css_combinators.asp)**
+
+14. *Psudeo Class:*
+
+* **What are Pseudo-classes?**
+
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+* Style an element when a user mouses over it.
+* Style visited and unvisited links differently.
+* Style an element when it gets focus.
+
+``` *Syntax:*
+selector:pseudo-class {
+  property: value;
+}
+```
+
+* **Anchor Pseudo-classes:**
+
+``` *Exmaple:*
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+```
+
+**Note:** `a:hover` MUST come after a:link and a:visited in the CSS definition in order to be effective! `a:active` MUST come after `a:hover` in the CSS definition in order to be effective! Pseudo-class names are not case-sensitive.
+
+* **Pseudo-classes and CSS Classes:**
+
+Pseudo-classes can be combined with CSS classes.
+
+``` *Syntax:*
+a.highlight:hover {
+  color: #ff0000;
+}
+```
+
+* **Hover on `<div>`:**
+
+An example of using the :hover pseudo-class on a `<div>` element.
+
+``` *Example:*
+div:hover {
+  background-color: blue;
+}
+```
+
+* **Simple Tooltip Hover:**
+
+Hover over a `<div>` element to show a `<p>` element *(like a tooltip).*
+
+``` *Syntax:*
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+```
+
+* **CSS - The :first-child Pseudo-class:**
+
+The `:first-child` pseudo-class matches a specified element that is the first child of another element.
+
+* **Match the first `<p>` element**
+
+``` *Example:
+p:first-child {
+  color: blue;
+}
+```
+
+* **Match the first `<i>` element in all `<p>` elements:**
+
+``` *Example:*
+p i:first-child {
+  color: blue;
+}
+```
+
+* **Match all `<i>` elements in all first child `<p>` elements:**
+
+``` *Exmaple:*
+p:first-child i {
+  color: blue;
+}
+```
+
+* **The :lang Pseudo-class:**
+
+The :lang pseudo-class allows you to define special rules for different languages.
+
+`:lang` defines the quotation marks for `<q>` elements with lang="no".
+
+``` *Exmaple:*
+<html>
+<head>
+<style>
+q:lang(no) {
+  quotes: "~" "~";
+}
+</style>
+</head>
+<body>
+
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+
+</body>
+</html>
+```
+
+[Specific Reference]('https://www.w3schools.com/css/tryit.asp?filename=trycss_lang')
+
+* **`:focus`:**
+
+The background color of `<input>` elements that are in focus *(clicked or active).*
+
+ ``` *Example:*
+input:focus {
+  background-color: lightblue;
+}
+ ```
+
+* For More **[Reference](https://www.w3schools.com/css/css_pseudo_classes.asp)**
+
+ 15. *Pseudo-elements:*
+
+* **What are Pseudo-Elements?**
+
+A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+Style the first letter, or line, of an element
+Insert content before, or after, the content of an element
+
+``` *Syntax:*
+selector::pseudo-element {
+  property: value;
+}
+```
+
+* **The `::first-line` Pseudo-element:**
+
+The ::first-line pseudo-element is used to add a special style to the first line of a text.
+
+``` *Exmaple:*
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+```
+
+**Note:** The `::first-line` pseudo-element can only be applied to block-level elements.
+
+The following properties apply to the `::first-line` pseudo-element:
+
+> font properties
+> color properties
+> background properties
+> word-spacing
+> letter-spacing
+> text-decoration
+> vertical-align
+> text-transform
+> line-height
+> clear
+
+**Notice the double colon notation -** `::first-line` versus `:first-line`
+
+The double colon replaced the single-colon notation for pseudo-elements in CSS3. This was an attempt from W3C to distinguish between pseudo-classes and pseudo-elements.
+
+The single-colon syntax was used for both pseudo-classes and pseudo-elements in CSS2 and CSS1.
+
+For backward compatibility, the single-colon syntax is acceptable for CSS2 and CSS1 pseudo-elements.
+
+* **The `::first-letter` Pseudo-element:**
+
+The `::first-letter` pseudo-element is used to add a special style to the first letter of a text.
+
+``` *Exmaple:*
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+```
+
+**Note:** The ::first-letter pseudo-element can only be applied to block-level elements.
+
+The following properties apply to the ::first-letter pseudo- element:
+
+> font properties
+> color properties
+> background properties
+> margin properties
+> padding properties
+> border properties
+> text-decoration
+> vertical-align (only if "float" is "none")
+> text-transform
+> line-height
+> float
+> clear
+
+* **Pseudo-elements and CSS Classes:**
+
+Pseudo-elements can be combined with CSS classes.
+
+``` *Example:*
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+```
+
+* **Multiple Pseudo-elements:**
+
+Several pseudo-elements can also be combined.
+
+In the following example, the first letter of a paragraph will be red, in an xx-large font size. The rest of the first line will be blue, and in small-caps. The rest of the paragraph will be the default font size and color.
+
+``` *Example:*
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+```
+
+* **CSS - The `::before` Pseudo-element:**
+
+The `::before` pseudo-element can be used to insert some content before the content of an element.
+
+``` *Exmaple:*
+h1::before {
+  content: url(smiley.gif);
+}
+```
+
+* **CSS - The `::after` Pseudo-element:**
+
+The `::after` pseudo-element can be used to insert some content after the content of an element.
+
+``` *Exmaple:*
+h1::after {
+  content: url(smiley.gif);
+}
+```
+
+* **CSS - The `::marker` Pseudo-element:**
+
+The `::marker` pseudo-element selects the markers of list items.
+
+``` *Exmaple:*
+::marker {
+  color: red;
+  font-size: 23px;
+}
+```
+
+* **CSS - The `::selection` Pseudo-element:**
+
+The `::selection` pseudo-element matches the portion of an element that is selected by a user.
+
+The following CSS properties can be applied to `::selection`: color, background, cursor, and outline.
+
+``` *Example:
+::selection {
+  color: red;
+  background: yellow;
+}
+```
+
+* For More **[Reference](https://www.w3schools.com/css/css_pseudo_elements.asp)**
+
+16. *Opacity/Transparency:*
+
+* The opacity property specifies the opacity/transparency of an element.
+
+* **Transparent Image:**
+The opacity property can take a value from `0.0 - 1.0`. The lower value, the more transparent.
+
+``` *Example:*
+img {
+  opacity: 0.5;
+}
+```
+
+* For More **[Reference](https://www.w3schools.com/css/css_image_transparency.asp)**
+
+17. *Dropdowns:*

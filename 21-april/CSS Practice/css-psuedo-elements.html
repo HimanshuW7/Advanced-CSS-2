@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psuedo Elements</title>
+    <style>
+      ::selection {
+        color: lawngreen;
+        background: yellow;
+      }
+
+      /* p::first-line {
+        color: rebeccapurple;
+      } */
+
+      /* p::first-letter {
+        color: red;
+        font-size: 2rem;
+      } */
+
+      .fc::first-line {
+        color: rgb(24, 119, 202);
+      }
+
+      .fc::first-letter {
+        color: rgb(124, 10, 10);
+        font-size: 4rem;
+      }
+
+      h1::before {
+        content: 'Hello-before';
+        padding: 8px;
+      }
+
+      h1::after {
+        content: 'Hello-after';
+        padding: 8px;
+      }
+
+      ::marker {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Psuedo Elements</h1>
+    <p class="fc">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+      architecto quod incidunt esse alias amet cum perferendis! Soluta, deleniti
+      autem vel nam eveniet pariatur placeat necessitatibus laborum repellendus
+      dolores, sequi asperiores ad, fugiat beatae possimus? Deserunt neque,
+      facilis eius laudantium suscipit dolores cupiditate minima ipsum! Illum
+      molestias omnis ratione voluptatum veniam deserunt neque culpa consequatur
+      beatae sed! Quos deleniti magni animi est omnis vero eveniet autem,
+      possimus dignissimos, repellendus eligendi dolorum minus officia quasi.
+      Dolorum reiciendis sequi rerum error vero.
+    </p>
+
+    <ul>
+      <li>lj-1</li>
+      <li>lj-2</li>
+      <li>lj-3</li>
+    </ul>
+
+    <ol>
+      <li>lj-4</li>
+      <li>lj-5</li>
+      <li>lj-6</li>
+    </ol>
+  </body>
+</html>

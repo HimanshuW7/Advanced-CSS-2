@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS- Psudeo Class</title>
+    <style>
+      p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        word-spacing: 1px;
+        line-height: 1.2px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      /* unvisited */
+      a:link {
+        color: hotpink;
+      }
+
+      /* visited */
+      a:visited {
+        color: wheat;
+      }
+
+      /* mouse hover */
+      a:hover {
+        color: cadetblue;
+      }
+
+      /* selected/active */
+      a:active {
+        color: rgb(14, 99, 133);
+      }
+
+      .highlight:hover {
+        color: darkblue;
+      }
+
+      div:hover {
+        color: aquamarine;
+      }
+
+      p {
+        display: none;
+        padding: 20px;
+        background-color: red;
+      }
+
+      div:hover p {
+        display: block;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-style: italic;
+        color: goldenrod;
+      }
+
+      h2:hover p {
+        display: block;
+      }
+
+      p:first-child {
+        color: burlywood;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Psudeo Class</h1>
+    <p>
+      <a href="#">This is just a link</a>
+    </p>
+    <a href="#" class="highlight">This is just another link</a>
+    <div>
+      <a href="#">This is just another and another link</a>
+    </div>
+    <div>
+      Just hover it!
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque,
+        ducimus!
+      </p>
+    </div>
+
+    <h2>
+      No Way!
+      <p>Hello World</p>
+      <p>Some Text</p>
+    </h2>
+  </body>
+</html>

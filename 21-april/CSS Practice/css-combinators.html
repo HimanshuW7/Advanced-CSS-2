@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Combinators</title>
+    <style>
+      /* div p {
+        background-color: slateblue;
+      } */
+
+      /* div > p {
+        background-color: palevioletred;
+      } */
+
+      /* div + p {
+        background-color: cornflowerblue;
+      } */
+
+      div ~ p {
+        background-color: indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Descendant</h1>
+    <h1>Child Selector</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur,
+      pariatur!
+    </p>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate in
+        velit, cupiditate ex provident quasi laudantium. Consectetur nulla omnis
+        quaerat laborum, quas culpa consequuntur rerum fugit doloribus eius
+        aliquam vitae eaque error cumque? Sed autem voluptates explicabo
+        provident nobis labore.
+      </p>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptas
+      repellat eos minima dolores corporis, hic dolor voluptatibus maxime neque
+      ab fugit repellendus commodi unde placeat distinctio quo et quod qui! Enim
+      nisi pariatur tenetur, quaerat consectetur quisquam dolorum doloribus.
+    </p>
+
+    <div>
+      <span>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ipsum.
+        </p>
+      </span>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum dolore,
+        numquam repellat similique ducimus consequatur dignissimos repellendus
+        debitis? Quae, voluptatum?
+      </p>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+      provident.
+    </p>
+    <code>Error Code!</code>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+      laboriosam?
+    </p>
+  </body>
+</html>
