@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdowns-2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      /* h1 {
+        color: springgreen;
+        font-family: cursive;
+        margin: 20px 34px;
+      }
+
+      h1:hover {
+        background-color: greenyellow;
+      }
+
+      p {
+        display: none;
+        color: aliceblue;
+        background-color: darkorchid;
+      } */
+
+      /* .jt {
+        color: burlywood;
+        font-size: 2rem;
+        font-style: italic;
+        margin: 20px 34px;
+      }
+
+      .jt:hover p {
+        display: block;
+      } */
+
+      .dropdown {
+        display: inline-block;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+
+      /* .dropdown-content h2 {
+        margin-bottom: 25px;
+      }
+
+      .dropdown-content img {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        opacity: 0.4;
+      }
+
+      .dropdown-content img:hover {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        opacity: 1;
+      } */
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dropdowns-2</h1>
+    <h2 class="jt">
+      This way!
+      <p class="jt">Hi inside p</p>
+    </h2>
+
+    <div class="dropdown">
+      <h2>This is just an hi with no image</h2>
+      <div class="dropdown-content">
+        <p>
+          Hello World! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Aperiam, totam?
+        </p>
+        <!-- <h2>This is an hi with image</h2>
+        <img
+          src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+          alt="Adding Image with dropdown"
+          class="ji"
+        /> -->
+      </div>
+    </div>
+  </body>
+</html>

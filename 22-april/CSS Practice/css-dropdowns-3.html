@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown 3</title>
+    <style>
+      .dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-btn {
+        color: #fff;
+        padding: 16px;
+        font-size: 16px;
+        background-color: lawngreen;
+        border: none;
+        cursor: pointer;
+      }
+
+      .dropdown-btn:hover {
+        color: #000;
+        background-color: rgb(105, 201, 9);
+      }
+
+      .dropdown-content {
+        display: none;
+        min-width: 160px;
+        background-color: #f9f9f9;
+        font-size: 16px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      .dropdown-content a {
+        padding: 10px;
+        text-decoration: none;
+        color: #000;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Menu Dropdown</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, expedita!
+    </p>
+
+    <div class="dropdown">
+      <button class="dropdown-btn">Menu Bar Dropdown</button>
+      <div class="dropdown-content">
+        <a href="#">Link-1</a>
+        <a href="#">Link-2</a>
+        <a href="#">Link-3</a>
+      </div>
+    </div>
+  </body>
+</html>
