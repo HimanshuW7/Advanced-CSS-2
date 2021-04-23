@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foom-2</title>
+    <style>
+      label {
+        display: grid;
+        padding: 20px 0;
+      }
+
+      input[type='text'] {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        /* border: 1px solid #555; */
+        border: 3px solid #ccc;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        outline: none;
+      }
+
+      input[type='text']:focus {
+        /* background-color: lightblue; */
+        border: 3px solid #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Form-2</h1>
+
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname" value="John" />
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname" id="lname" value="Doe" />
+  </body>
+</html>

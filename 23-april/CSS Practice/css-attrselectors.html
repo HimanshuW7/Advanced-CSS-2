@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attributes Selectors</title>
+    <style>
+      /* a[target] {
+        background-color: yellow;
+      }
+
+      a[target='_blank'] {
+        background-color: aqua;
+      }
+
+      [title~='Flower'] {
+        border: 10px solid burlywood;
+      } */
+
+      /* [class|='top'] {
+        background-color: thistle;
+      } */
+
+      /* [class^='top'] {
+        background-color: darkgoldenrod;
+      } */
+
+      /* [class$='test'] {
+        background-color: darksalmon;
+      } */
+
+      [class*='te'] {
+        background-color: hotpink;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Hello World-1</a>
+    <a href="#" target="_blank" class="-ion">Hello World-2</a>
+    <a href="#" target="_top" class="top-text-te">Hello World-3</a>
+    <a href="#" target="_parent" class="tetop-content">Hello World-4</a>
+    <a href="#" target="_self" class="begtein-test">Hello World-5</a>
+
+    <img
+      src="https://www.w3schools.com/css/klematis.jpg"
+      alt="Image"
+      title="JJ Flower"
+      width="200px"
+      height="150px"
+    />
+
+    <img
+      src="https://www.w3schools.com/css/img_flwr.gif"
+      alt="Image"
+      title="KK Flower"
+      width="250px"
+      height="250px"
+    />
+
+    <img
+      src="https://www.w3schools.com/css/img_tree.gif"
+      alt="Image"
+      title="DJ Hans"
+      width="350px"
+      height="350px"
+    />
+  </body>
+</html>

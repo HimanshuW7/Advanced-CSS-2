@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .main {
+        display: flex;
+      }
+
+      .gallery {
+        display: grid;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid #ccc;
+        margin: 25px;
+        width: 250px;
+        font-size: 16px;
+        font-family: cursive;
+      }
+
+      .gallery:hover {
+        border: 2px solid #777;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      .d-text {
+        margin-top: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="gallery">
+        <a traget="_blank" href="https://www.w3schools.com/css/img_5terre.jpg">
+          <img
+            src="https://www.w3schools.com/css/img_5terre.jpg"
+            alt="Image 1"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="d-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+          cupiditate corrupti itaque alias incidunt ratione!
+        </div>
+      </div>
+
+      <div class="gallery">
+        <a traget="_blank" href="https://www.w3schools.com/css/img_forest.jpg">
+          <img
+            src="https://www.w3schools.com/css/img_forest.jpg"
+            alt="Image 1"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="d-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam
+          error libero animi maxime repellat.
+        </div>
+      </div>
+
+      <div class="gallery">
+        <a traget="_blank" href="https://www.w3schools.com/css/img_lights.jpg">
+          <img
+            src="https://www.w3schools.com/css/img_lights.jpg"
+            alt="Image 1"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="d-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ea
+          inventore excepturi iure vel nam?
+        </div>
+      </div>
+
+      <div class="gallery">
+        <a
+          traget="_blank"
+          href="https://www.w3schools.com/css/img_mountains.jpg"
+        >
+          <img
+            src="https://www.w3schools.com/css/img_mountains.jpg"
+            alt="Image 1"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="d-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut autem,
+          voluptatum dolorem omnis doloremque tempore?
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <a
+        traget="_blank"
+        href="https://image.shutterstock.com/image-illustration/5th-generation-mobile-networks-wireless-600w-537510643.jpg"
+      >
+        <img
+          src="https://image.shutterstock.com/image-illustration/5th-generation-mobile-networks-wireless-600w-537510643.jpg"
+          alt="Image 1"
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="d-text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta atque
+        et aliquam expedita vitae voluptas!
+      </div>
+    </div>
+
+    <p>Responsive Later, because more things to do at first</p>
+  </body>
+</html>
