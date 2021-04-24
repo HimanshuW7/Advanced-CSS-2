@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Image</title>
+    <style>
+      #borderimg {
+        border: 10px solid transparent;
+        padding: 15px;
+        border-image: url(https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/border.png)
+          30 round;
+      }
+
+      img {
+        filter: invert(100%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The border image property!</h1>
+    <p>Random Text</p>
+    <p id="borderimg">Master Text</p>
+
+    <p>Original Image</p>
+    <img
+      src="https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/border.png"
+      alt="Original Image"
+    />
+    <p>Random Text</p>
+  </body>
+</html>

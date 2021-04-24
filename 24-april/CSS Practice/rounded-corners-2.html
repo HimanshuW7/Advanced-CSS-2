@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rounded Corners 2</title>
+    <style>
+      #rc-1,
+      #rc-2,
+      #rc-3,
+      #rc-4 {
+        background-color: #76ad21;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+      }
+
+      #rc-1 {
+        /* border-radius: 15px 50px 30px 5px; */
+        border-radius: 15px / 50px;
+      }
+
+      #rc-2 {
+        /* border-radius: 15px 50px 30px; */
+        border-radius: 50px 15px;
+      }
+
+      #rc-3 {
+        /* border-radius: 15px 50px; */
+        border-radius: 50%;
+      }
+
+      #rc-4 {
+        border-radius: 15px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Border Radius</h1>
+
+    <p>B-1</p>
+    <p>Elliptical border - border-radius: 15px / 50px:</p>
+    <p id="rc-1"></p>
+
+    <p>B-2</p>
+    <p>Elliptical border - border-radius: 50px / 15px:</p>
+    <p id="rc-2"></p>
+
+    <p>B-3</p>
+    <p>Ellipse border - border-radius: 50%:</p>
+    <p id="rc-3"></p>
+
+    <p>B-4</p>
+    <p id="rc-4"></p>
+  </body>
+</html>

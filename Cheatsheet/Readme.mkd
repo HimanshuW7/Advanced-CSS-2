@@ -14,7 +14,9 @@
 * background (shorthand property)
 * `background: red no-repeat center center/cover;`
 
-2. *Font and Font Effects:*
+For More **[Reference](https://www.w3schools.com/css/css_background.asp)**
+
+1. *Font and Font Effects:*
 
 * Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
 
@@ -767,7 +769,9 @@ Create a dropdown box that appears when the user moves the mouse over an element
 </div>
 ```
 
-18. *CSS Attribute Selectors:*
+For More **[Reference]('https://www.w3schools.com/css/css_dropdowns.asp')**
+
+18. *Attribute Selectors:*
 
 * **Style HTML Elements With Specific Attributes:**
 
@@ -852,3 +856,376 @@ The `[attribute*="value"]` selector is used to select elements whose attribute v
 
 **Note:** The value does not have to be a whole word!
 
+For More **[Reference]('https://www.w3schools.com/css/css_attribute_selectors.asp')**
+
+19. *Counters:*
+
+* CSS counters are `"variables"` maintained by CSS whose values can be incremented by CSS rules `(to track how many times they are used)`. Counters let you adjust the appearance of content based on its placement in the document.
+
+* **Automatic Numbering With Counters:**
+
+CSS counters are like "variables". The variable values can be incremented by CSS rules (which will track how many times they are used).
+
+To work with CSS counters we will use the following properties:
+
+> `counter-reset` - Creates or resets a counter
+> `counter-increment` - Increments a counter value
+> `content` - Inserts generated content
+> `counter()` or `counters()` function - Adds the value of a counter to an element
+
+To use a CSS counter, it must first be created with counter-reset.
+
+``` *The following example creates a counter for the page (in the body selector), then increments the counter value for each <h2> element and adds "Section <value of the counter>:" to the beginning of each <h2> element:*
+
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+```
+
+* **Nesting Counters:**
+The following example creates one counter for the page `(section)` and one counter for each `<h1>` element `(subsection)`. The `"section"` counter will be counted for each `<h1>` element with "Section `<value of the section counter>."`, and the "subsection" counter will be counted for each `<h2>` element with `"<value of the section counter>.<value of the subsection counter>"`:
+
+``` *Exmaple:*
+
+body {
+  counter-reset: section;
+}
+
+h1 {
+  counter-reset: subsection;
+}
+
+h1::before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h2::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+```
+
+* A counter can also be useful to make outlined lists because a new instance of a counter is automatically created in child elements. Here we use the `counters()` function to insert a string between different levels of nested counters:
+
+``` *Example:*
+
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section,".") " ";
+}
+```
+
+For More **[Reference](https://www.w3schools.com/css/css_counters.asp)**
+
+20. *Website Layout:*
+
+* A website is often divided into headers, menus, content and a footer.
+
+* **Header:**
+
+A header is usually located at the top of the website `(or right below a top navigation menu)`. It often contains a logo or the website name:
+
+``` Example:
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+```
+
+* **Navigation Bar:**
+
+A navigation bar contains a list of links to help visitors navigating through your website:
+
+``` Example:
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+```
+
+* **Content:**
+
+The layout in this section, often depends on the target users. The most common layout is one (or combining them) of the following:
+
+> 1-column (often used for mobile browsers)
+> 2-column (often used for tablets and laptops)
+> 3-column layout (only used for desktops)
+
+We will create a 3-column layout, and change it to a 1-column layout on smaller screens:
+
+``` Exmaple:
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+```
+
+* **Footer:**
+
+The footer is placed at the bottom of your page. It often contains information like copyright and contact info:
+
+``` Example:
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+```
+
+For More **[Reference](https://www.w3schools.com/css/css_website_layout.asp)**
+
+21. *Units:*
+
+* **CSS Units:**
+
+CSS has several different units for expressing a length.
+
+Many CSS properties take `"length"` `values`, such as `width`, `margin`, `padding`, `font-size`, etc.
+
+Length is a number followed by a `length unit`, such as `10px`, `2em`, etc.
+
+``` Exmaple:
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+```
+
+**Note:** A whitespace cannot appear between the number and the unit. However, if the value is `0`, the unit can be omitted.
+
+For some CSS properties, negative lengths are allowed.
+
+There are two types of length units: `absolute and relative.`
+
+* **Absolute Lengths:**
+
+The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.
+
+Absolute length units are not recommended for use on screen, because screen sizes vary so much. However, they can be used if the output medium is known, such as for print layout.
+
+| Unit | Description                  |
+| ---- | ---------------------------- |
+| cm   | centimeter                   |
+| mm   | millimeter                   |
+| in   | inches (1in = 96px = 2.54cm) |
+| px * | pixels (1px = 1/96th of 1in) |
+| pt   | points (1pt = 1/72 of 1in)   |
+| pc   | picas (1pc = 12 pt)          |
+
+* Pixels `(px)` are relative to the viewing device. For low-dpi devices, 1px is one device pixel `(dot)` of the display. For printers and high resolution screens 1px implies multiple device pixels.
+
+* **Relative Lengths:**
+
+Relative length units specify a length relative to another length property. Relative length units scales better between different rendering mediums.
+
+| Unit | Description                                                                               |
+| ---- | ----------------------------------------------------------------------------------------- |
+| em   | Relative to the font-size of the element (2em means 2 times the size of the current font) |
+| ex   | Relative to the x-height of the current font (rarely used)                                |
+| ch   | Relative to width of the "0" (zero)                                                       |
+| rem  | Relative to font-size of the root element                                                 |
+| vw   | Relative to 1% of the width of the viewport*                                              |
+| vh   | Relative to 1% of the height of the viewport*                                             |
+| vmin | Relative to 1% of viewport's* smaller dimension                                           |
+| vmax | Relative to 1% of viewport's* larger dimension                                            |
+| %    | Relative to the parent element                                                            |
+
+For More  **[Reference](https://www.w3schools.com/css/css_units.asp)**
+
+22. *CSS Specificity:*
+
+* **What is Specificity?**
+
+If there are two or more conflicting CSS rules that point to the same element, the browser follows some rules to determine which one is most specific and therefore wins out.
+
+Think of specificity as a score/rank that determines which style declarations are ultimately applied to an element.
+
+The universal selector `(*)` has low specificity, while ID selectors are highly specific!
+
+**Note:** Specificity is a common reason why your CSS-rules don't apply to some elements, although you think they should.
+
+* **Specificity Hierarchy:**
+
+Every selector has its place in the specificity hierarchy. There are four categories which define the specificity level of a selector:
+
+`Inline styles` - An inline style is attached directly to the element to be styled. Example: `<h1 style="color: #ffffff;">`.
+
+`IDs` - An ID is a unique identifier for the page elements, such as #navbar.
+
+`Classes, attributes and pseudo-classes` - This category includes .classes, `[attributes]` and pseudo-classes such as :hover, :focus etc.
+
+`Elements and pseudo-elements` - This category includes element names and pseudo-elements, such as h1, div, :before and :after.
+
+* **How to Calculate Specificity?**
+
+Memorize how to calculate specificity!
+
+Start at 0, add 1000 for style attribute, add 100 for each ID, add 10 for each attribute, class or pseudo-class, add 1 for each element name or pseudo-element.
+
+Consider these three code fragments:
+
+``` *Example:*
+
+A: h1
+B: #content h1
+C: <div id="content"><h1 style="color: #ffffff">Heading</h1></div>
+
+```
+
+The specificity of A is 1 `(one element)`
+The specificity of B is 101 `(one ID reference and one element)`
+The specificity of C is 1000 `(inline styling)`
+
+Since 1 < 101 < 1000, the third rule `(C)` has a greater level of specificity, and therefore will be applied.
+
+* **Specificity Rules:**
+
+**Equal specificity: the latest rule counts** - If the same rule is written twice into the external style sheet, then the lower rule in the style sheet is closer to the element to be styled, and therefore will be applied:
+
+``` *Example:*
+
+h1 {background-color: yellow;}
+h1 {background-color: red;}
+
+```
+
+*the latter rule is always applied.*
+
+---
+
+* **ID selectors have a higher specificity than attribute selectors** - Look at the following three code lines:
+
+``` *Example:*
+
+div#a {background-color: green;}
+#a {background-color: yellow;}
+div[id=a] {background-color: blue;}
+
+```
+
+*the first rule is more specific than the other two, and will be applied.*
+
+---
+
+* **Contextual selectors are more specific than a single element selector** - The embedded style sheet is closer to the element to be styled. So in the following situation
+
+``` *Example:*
+
+From external CSS file:
+#content h1 {background-color: red;}
+
+In HTML file:
+<style>
+#content h1 {
+  background-color: yellow;
+}
+</style>
+
+```
+
+*the latter rule will be applied.*
+
+---
+
+* **A class selector beats any number of element selectors** - a class selector such as .intro beats h1, p, div, etc:
+
+``` *Example:*
+
+.intro {background-color: yellow;}
+h1 {background-color: red;}
+
+```
+
+**The universal selector and inherited values have a specificity of 0** - *`*`, body `*` and similar have a zero specificity. Inherited values also have a specificity of 0.*
+
+---
+
+23. *CSS Border Images:*
+
+* **CSS Border Images:**
+
+With the CSS `border-image` property, you can set an image to be used as the border around an element.
+
+* *CSS `border-image` Property:*
+
+The CSS `border-image` property allows you to specify an image to be used instead of the normal border around an element.
+
+The property has three parts:
+
+> The image to use as the border
+> Where to slice the image
+> Define whether the middle sections should be repeated or stretched
+
+We will use the following image `(called "border.png")`:
+
+![border.png](https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/border.png)
+
+The `border-image` property takes the image and slices it into nine sections, like a tic-tac-toe board. It then places the corners at the corners, and the middle sections are repeated or stretched as you specify.
+
+**Note:** For `border-image` to work, the element also needs the `border` property set!
+
+Here, the middle sections of the image are repeated to create the border:
+
+``` *Here is the code:*
+
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+
+```
