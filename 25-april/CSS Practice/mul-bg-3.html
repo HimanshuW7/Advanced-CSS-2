@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Background-3</title>
+    <style>
+      #hero-image {
+        background: url(https://images.unsplash.com/photo-1609505110780-f51aca88115d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80)
+          no-repeat center;
+        /* background-size: contain; */
+        background-size: cover;
+        position: relative;
+        height: 500px;
+        border: 10px solid burlywood;
+        /* background-origin: content-box; */
+        /* background-origin: border-box; */
+        /* background-origin: padding-box; */
+
+        background-clip: content-box;
+        /* background-clip: border-box; */
+        /* background-clip: padding-box; */
+      }
+
+      h1,
+      h3 {
+        color: #f1f1f1;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      #hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hero-image">
+      <div id="hero-text">
+        <h1>I am Nobody</h1>
+        <h3>Nothing</h3>
+        <button>No Need</button>
+      </div>
+    </div>
+
+    <p>Extra Text...</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo
+      sapiente fuga tempora omnis quis, molestias consectetur ut, accusamus
+      totam impedit id necessitatibus ea possimus cumque dicta recusandae
+      ratione explicabo odio labore? Quia provident nostrum laboriosam velit
+      illum neque accusamus necessitatibus! Quibusdam fugiat ducimus animi
+      dignissimos itaque, esse accusamus deserunt?
+    </p>
+  </body>
+</html>

@@ -1225,7 +1225,244 @@ Here, the middle sections of the image are repeated to create the border:
 #borderimg {
   border: 10px solid transparent;
   padding: 15px;
-  border-image: url(border.png) 30 round;
+  border-image: url(border.png) 30 round; /* space, stretch, fill, repeat */
+}
+
+```
+
+**Tip:** The `border-image` property is actually a shorthand property for the `border-image-source`, `border-image-slice`, `border-image-width`, `border-image-outset` and `border-image-repeat` properties.
+
+| Border Property     | Description                                                                       |
+| ------------------- | --------------------------------------------------------------------------------- |
+| border-image        | A shorthand property for setting all the `border-image-*` properties              |
+| border-image-source | Specifies the path to the image to be used as a border                            |
+| border-image-slice  | Specifies how to slice the border image                                           |
+| border-image-width  | Specifies the widths of the border image                                          |
+| border-image-outset | Specifies the amount by which the border image area extends beyond the border box |
+| border-image-repeat | Specifies whether the border image should be repeated, rounded or stretched       |
+
+For More **[Reference]('https://www.w3schools.com/css/css3_border_images.asp')**
+
+24. *Background:*
+
+* **CSS Background Size:**
+
+The CSS `background-size` property allows you to specify the size of background images.
+
+The size can be specified in lengths, percentages, or by using one of the two keywords: `contain` or `cover`.
+
+The following example resizes a background image to much smaller than the original image `(using pixels)`:
+
+``` *Example:*
+
+#div1 {
+  background: url(img_flower.jpg);
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+}
+
+```
+
+The two other possible values for `background-size` are `contain` and `cover`.
+
+The `contain` keyword scales the background image to be as large as possible (but both its width and its height must fit inside the content area). As such, depending on the proportions of the background image and the background positioning area, there may be some areas of the background which are not covered by the background image.
+
+The `cover` keyword scales the background image so that the content area is completely covered by the background image (both its width and height are equal to or exceed the content area). As such, some parts of the background image may not be visible in the background positioning area.
+
+The following example illustrates the use of `contain` and `cover`:
+
+``` *Exmaple:*
+
+#div1 {
+  background: url(img_flower.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#div2 {
+  background: url(img_flower.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+```
+
+* **CSS background-origin Property:**
+
+The CSS `background-origin` property specifies where the background image is positioned.
+
+The property takes three different values:
+
+> `border-box` - the background image starts from the upper left corner of the border
+> `padding-box` - `(default)` the background image starts from the upper left corner of the padding edge
+> `content-box` - the background image starts from the upper left corner of the content
+
+The following example illustrates the `background-origin` property:
+
+``` *Exmaple:*
+
+#example1 {
+  border: 10px solid black;
+  padding: 35px;
+  background: url(img_flwr.gif);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+```
+
+* **CSS background-clip Property:**
+
+The CSS `background-clip` property specifies the painting area of the background.
+
+The property takes three different values:
+
+> `border-box` - `(default)` the background is painted to the outside edge of the border
+> `padding-box` - the background is painted to the outside edge of the padding
+> `content-box` - the background is painted within the content box
+
+The following example illustrates the background-clip property:
+
+``` *Example:*
+
+#example1 {
+  border: 10px dotted black;
+  padding: 35px;
+  background: yellow;
+  background-clip: content-box;
+}
+
+```
+
+For More **[Reference]('https://www.w3schools.com/css/css3_backgrounds.asp')**
+
+25. **CSS Gradients:**
+
+* `CSS gradients` let you display smooth transitions between two or more specified colors.
+
+* CSS defines two types of gradients:
+
+> `Linear Gradients` (goes down/up/left/right/diagonally)
+> `Radial Gradients` (defined by their center)
+
+---
+
+* **CSS Linear Gradients:**
+
+To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
+
+`Syntax:`
+
+`background-image: linear-gradient(direction, color-stop1, color-stop2, ...);`
+
+**`Direction - Top to Bottom (this is default):`**
+
+The following example shows a linear gradient that starts at the top. It starts red, transitioning to yellow:
+
+``` *Example:*
+
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
+
+```
+
+* **`Direction - Left to Right:`**
+
+The following example shows a linear gradient that starts from the left. It starts red, transitioning to yellow:
+
+``` *Example:*
+
+#grad {
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+```
+
+* **`Direction - Diagonal:`**
+
+You can make a gradient diagonally by specifying both the horizontal and vertical starting positions.
+
+The following example shows a linear gradient that starts at top left (and goes to bottom right). It starts red, transitioning to yellow:
+
+``` *Example:*
+
+#grad {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+```
+
+---
+
+* **Using Angles:**
+
+If you want more control over the direction of the gradient, you can define an angle, instead of the predefined directions (to bottom, to top, to right, to left, to bottom right, etc.). A value of 0deg is equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to "to bottom".
+
+`Syntax:`
+
+`background-image: linear-gradient(angle, color-stop1, color-stop2);`
+
+The following example shows how to use angles on linear gradients:
+
+``` *Example:*
+
+#grad {
+  background-image: linear-gradient(180deg, red, yellow);
+}
+
+```
+
+* **Using Multiple Color Stops:**
+
+The following example shows a linear gradient (from top to bottom) with multiple color stops:
+
+``` *Example:*
+
+#grad {
+  background-image: linear-gradient(red, yellow, green);
+}
+
+```
+
+* **Rainbow Background:**
+
+The following example shows how to create a linear gradient (from left to right) with the color of the rainbow and some text:
+
+``` *Example:*
+
+#grad {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+```
+
+* **Using Transparency:**
+
+CSS gradients also support transparency, which can be used to create fading effects.
+
+To add transparency, we use the rgba() function to define the color stops. The last parameter in the rgba() function can be a value from 0 to 1, and it defines the transparency of the color: 0 indicates full transparency, 1 indicates full color (no transparency).
+
+The following example shows a linear gradient that starts from the left. It starts fully transparent, transitioning to full color red:
+
+``` *Exmaple:*
+
+#grad {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+```
+
+* **Repeating a linear-gradient:**
+
+The repeating-linear-gradient() function is used to repeat linear gradients:
+
+``` *Example:*
+
+A repeating linear gradient:
+
+#grad {
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
 }
 
 ```
