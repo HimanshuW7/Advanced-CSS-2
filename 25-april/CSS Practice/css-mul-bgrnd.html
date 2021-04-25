@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Backgrounds</title>
+    <style>
+      #ex-1 {
+        /* background-image: url(https://image.shutterstock.com/image-illustration/glowing-terrestrial-globe-made-wireframes-600w-566151016.jpg),
+          url(https://image.shutterstock.com/image-vector/abstract-background-technology-theme-600w-639728641.jpg); */
+
+        background: url(https://image.shutterstock.com/image-illustration/glowing-terrestrial-globe-made-wireframes-600w-566151016.jpg)
+            right bottom no-repeat,
+          url(https://image.shutterstock.com/image-vector/abstract-background-technology-theme-600w-639728641.jpg)
+            left top repeat;
+        /* background-position: right bottom, left top;
+        background-repeat: no-repeat repeat; */
+        padding: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Multiple Backgrounds</h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, nobis?
+    </p>
+
+    <div id="ex-1">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+        tempore, explicabo tenetur laborum deserunt qui alias voluptatibus
+        nobis! Ipsam, aspernatur!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt,
+        sapiente!
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+        doloremque numquam laboriosam dolorem quas? Voluptate maxime dolorum
+        veritatis, cumque quasi omnis necessitatibus ad! Laboriosam quaerat,
+        nesciunt aperiam saepe consectetur est.
+      </p>
+    </div>
+  </body>
+</html>

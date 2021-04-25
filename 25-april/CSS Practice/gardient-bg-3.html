@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient-Linear-3</title>
+    <style>
+      body {
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      #grad {
+        height: 200px;
+        background-image: linear-gradient(red, yellow, green);
+      }
+
+      #grad-2 {
+        /* margin-top: 20px; */
+        /* width: 100%; */
+        /* height: 10px; */
+        height: 200px;
+        background-image: linear-gradient(
+          to right,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          indigo,
+          violet
+        );
+      }
+
+      #grad-3 {
+        height: 200px;
+        background-image: linear-gradient(
+          to right,
+          rgba(255, 0, 0, 0),
+          rgba(255, 0, 0, 1)
+        );
+      }
+
+      #grad-4 {
+        height: 200px;
+        background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+      }
+
+      #grad-5 {
+        height: 200px;
+        background-image: repeating-linear-gradient(
+          45deg,
+          red,
+          yellow 7%,
+          green 10%
+        );
+      }
+
+      #grad-5 {
+        height: 200px;
+        background-image: repeating-linear-gradient(
+          190deg,
+          red,
+          yellow 7%,
+          green 10%
+        );
+      }
+
+      #grad-6 {
+        height: 200px;
+        background-image: repeating-linear-gradient(
+          90deg,
+          red,
+          yellow 7%,
+          green 10%
+        );
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Gradient-Linear-3</h1>
+
+    <div id="grad">
+      <h2>Multiple Colors Stop</h2>
+    </div>
+
+    <div id="grad-2">
+      <h2>Rainbow Background</h2>
+    </div>
+
+    <div id="grad-3">
+      <h2>Fading with opacity</h2>
+    </div>
+
+    <div id="grad-4">
+      <h2>
+        A repeating gradient on 45deg axe starting red and finishing green:
+      </h2>
+    </div>
+
+    <div id="grad-5">
+      <h2>
+        A repeating gradient on 190deg axe starting red and finishing green:
+      </h2>
+    </div>
+
+    <div id="grad-6">
+      <h2>
+        A repeating gradient on 90deg axe starting red and finishing green:
+      </h2>
+    </div>
+  </body>
+</html>
