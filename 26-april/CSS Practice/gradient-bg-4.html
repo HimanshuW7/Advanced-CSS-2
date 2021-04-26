@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graidient Background-4</title>
+    <style>
+      body {
+        font-size: 1.5rem;
+      }
+
+      #grad {
+        background-image: radial-gradient(red, yellow, green);
+        height: 200px;
+        margin: 15px;
+        text-align: center;
+      }
+
+      #grad-2 {
+        background-image: radial-gradient(red 20%, yellow 40%, green 60%);
+        height: 200px;
+        margin: 15px;
+        text-align: center;
+      }
+
+      #grad-3 {
+        background-image: radial-gradient(red, yellow, green);
+        height: 150px;
+        width: 200px;
+        margin: 15px;
+      }
+
+      #grad-4 {
+        background-image: radial-gradient(Circle, red, yellow, green);
+        height: 150px;
+        width: 200px;
+        margin: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Radial Graidient</h1>
+
+    <div id="grad">Evenly Spaced Color Stops</div>
+
+    <div id="grad-2">Different Spaced Color Stops</div>
+
+    <p>Eclipse Shape (Default):</p>
+    <div id="grad-3"></div>
+
+    <p>Circle Shape:</p>
+    <div id="grad-4"></div>
+  </body>
+</html>
