@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D Transforms-5</title>
+    <style>
+      div {
+        width: 300px;
+        height: 150px;
+        border: 2px solid #000;
+        background-color: burlywood;
+      }
+
+      #m-div {
+        /* transform: skewX(20deg); */
+        /* transform: skewX(40deg); */
+
+        /* transform: skewY(20deg); */
+        /* transform: skewY(40deg); */
+
+        transform: skew(20deg, 10deg);
+
+        transform: skew(20deg);
+      }
+
+      #m-div:hover {
+        transform: skew(40deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>2D Transforms-5</h1>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa natus odio
+      ut tempora non, possimus sit, id perferendis cum porro adipisci nostrum
+      itaque reprehenderit eos? Cum magnam quaerat dolore delectus?
+    </div>
+
+    <div id="m-div">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a fugiat
+      reprehenderit explicabo. Odio optio id maxime illum ipsum nemo asperiores
+      accusantium. Quasi deleniti aliquam eius quisquam neque, eaque eligendi.
+    </div>
+  </body>
+</html>
