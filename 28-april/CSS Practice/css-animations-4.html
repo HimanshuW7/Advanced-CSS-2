@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation-4</title>
+    <style>
+      .md {
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        background-color: mediumblue;
+        animation: harley-4 5s infinite;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: cursive;
+      }
+
+      #md-1 {
+        animation-timing-function: linear;
+      }
+
+      #md-2 {
+        animation-timing-function: ease;
+      }
+
+      #md-3 {
+        animation-timing-function: ease-in;
+      }
+
+      #md-4 {
+        animation-timing-function: ease-out;
+      }
+
+      #md-5 {
+        animation-timing-function: ease-in-out;
+      }
+
+      #md-6 {
+        animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+      }
+
+      @keyframes harley-4 {
+        from {
+          left: 0;
+        }
+
+        to {
+          left: 400px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Animation-4</h1>
+
+    <div class="md" id="md-1">Linear</div>
+    <div class="md" id="md-2">Ease</div>
+    <div class="md" id="md-3">Ease-in</div>
+    <div class="md" id="md-4">Ease-out</div>
+    <div class="md" id="md-5">Ease-in-out</div>
+    <div class="md" id="md-6">Cubic Brezier</div>
+  </body>
+</html>

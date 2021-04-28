@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation-5</title>
+    <style>
+      div {
+        background-color: darkcyan;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        animation-name: harley-5;
+        animation-duration: 4s;
+        /* animation-iteration-count: 4; */
+        animation-delay: 2s;
+        /* animation-fill-mode: forwards; */
+        /* animation-fill-mode: backwards; */
+        animation-fill-mode: both;
+      }
+
+      @keyframes harley-5 {
+        from {
+          top: 0;
+        }
+
+        to {
+          top: 200px;
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation-5</h1>
+
+    <div></div>
+  </body>
+</html>

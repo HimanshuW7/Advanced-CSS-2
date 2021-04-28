@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation-6</title>
+    <style>
+      div {
+        background-color: turquoise;
+        position: relative;
+        width: 200px;
+        height: 200px;
+      }
+
+      #md-1 {
+        animation-name: harley-6;
+        animation-duration: 4s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      #md-2 {
+        animation: harley-6 16s ease 2s infinite alternate;
+      }
+
+      @keyframes harley-6 {
+        0% {
+          top: 0px;
+          left: 0px;
+          background-color: red;
+        }
+
+        25% {
+          top: 400px;
+          left: 0px;
+          background-color: blueviolet;
+        }
+
+        50% {
+          top: 400px;
+          left: 400px;
+          background-color: aqua;
+        }
+
+        75% {
+          top: 0px;
+          left: 400px;
+          background-color: yellow;
+        }
+
+        100% {
+          top: 0px;
+          left: 0px;
+          background-color: lightcoral;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation-6</h1>
+    <!-- <div id="md-1"></div> -->
+    <div id="md-2"></div>
+  </body>
+</html>

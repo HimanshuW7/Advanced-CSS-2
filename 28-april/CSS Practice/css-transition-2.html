@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions-2</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        transition: width 4s;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      #mdiv-1 {
+        transition-timing-function: linear;
+      }
+
+      #mdiv-2 {
+        transition-timing-function: ease;
+      }
+
+      #mdiv-3 {
+        transition-timing-function: ease-in;
+      }
+
+      #mdiv-4 {
+        transition-timing-function: ease-out;
+      }
+
+      #mdiv-5 {
+        transition-timing-function: ease-in-out;
+      }
+
+      div:hover {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transitions-2</h1>
+
+    <div id="mdiv-1">Linear</div>
+    <div id="mdiv-2">Ease</div>
+    <div id="mdiv-3">Ease-in</div>
+    <div id="mdiv-4">Ease-out</div>
+    <div id="mdiv-5">Ease-in-out</div>
+  </body>
+</html>

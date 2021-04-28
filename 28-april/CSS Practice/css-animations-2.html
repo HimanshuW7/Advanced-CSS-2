@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations-2</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: chartreuse;
+        animation-name: harley-2;
+        animation-duration: 9s;
+        /* animation-delay: 2s; */
+        animation-delay: -5s;
+      }
+
+      @keyframes harley-2 {
+        0% {
+          background-color: red;
+          top: 0;
+          left: 0;
+        }
+
+        25% {
+          background-color: lawngreen;
+          top: 500px;
+          left: 0;
+        }
+
+        50% {
+          background-color: hotpink;
+          top: 500px;
+          left: 500px;
+        }
+
+        75% {
+          background-color: seagreen;
+          top: 0;
+          left: 500px;
+        }
+
+        100% {
+          background-color: indianred;
+          top: 0;
+          left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animations-2</h1>
+
+    <div></div>
+  </body>
+</html>
