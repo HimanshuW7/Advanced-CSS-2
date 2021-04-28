@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation-3</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        animation-name: harley-3;
+        animation-duration: 4s;
+        /* animation-iteration-count: 99999999; */
+        /* animation-iteration-count: infinite; */
+        animation-iteration-count: 4;
+        animation-iteration-count: 4;
+        /* animation-direction: reverse; */
+        /* animation-direction: alternate; */
+        animation-direction: alternate-reverse;
+      }
+
+      /* #md {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Zilla Slab Highlight';
+        color: honeydew;
+      } */
+
+      @keyframes harley-3 {
+        0% {
+          top: 0;
+          left: 0;
+          background-color: mediumturquoise;
+        }
+
+        25% {
+          top: 500px;
+          left: 0;
+          background-color: tan;
+        }
+
+        50% {
+          top: 500px;
+          left: 500px;
+          background-color: rosybrown;
+        }
+
+        75% {
+          top: 0;
+          left: 500px;
+          background-color: rebeccapurple;
+        }
+
+        100% {
+          top: 0;
+          left: 0;
+          background-color: red;
+        }
+
+        /* from {
+          width: 100px;
+          background-color: purple;
+          /* font-size: 1rem; */
+        }
+
+        to {
+          width: 1200px;
+          background-color: red;
+          /* font-size: 2rem; */
+        } */
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Animation-3</h1>
+
+    <!-- <div id="md">Harley Quinn</div> -->
+    <div></div>
+  </body>
+</html>

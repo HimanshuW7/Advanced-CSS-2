@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition-4</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transition: width 2s, height 2s, transform 2s, margin 2s;
+        transition: all 05s ease-in-out;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+
+      div:hover {
+        margin: 50px;
+        width: 300px;
+        height: 300px;
+        transform: rotate(360deg);
+        /* transform: skew(360deg); */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transition-3</h1>
+    <div id="md"></div>
+  </body>
+</html>
