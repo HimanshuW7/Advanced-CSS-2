@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tool Tip 2</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      #tool-tip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted #000;
+      }
+
+      #tool-tip #tool-text {
+        position: absolute;
+        z-index: 1;
+        /* top: -5px; */
+
+        /* For Right side */
+        /* right: 105%; */
+
+        /* For Left side */
+        /* left: 105%; */
+
+        /* For Top side */
+        /* bottom: 100%;
+        left: 50%;
+        margin-left: -60px; */
+
+        /* For Bottom side */
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+
+        /* display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center; */
+
+        /* margin-left: 5px; */
+        background-color: #000;
+        padding: 5px 0;
+        width: 120px;
+        color: #fff;
+        border-radius: 6px;
+        visibility: hidden;
+      }
+
+      #tool-tip:hover #tool-text {
+        visibility: visible;
+        z-index: -1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Tool-Tip-2</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ipsum,
+      illo nobis animi odio vero magni ullam unde voluptatum quidem eum ad
+      blanditiis? Beatae illo odit minus aut deleniti ex?
+    </p>
+
+    <div id="tool-tip">
+      Hover over me
+      <span id="tool-text">Tool Tip Text</span>
+    </div>
+
+    <!-- <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sint
+      dolore mollitia aspernatur explicabo, nemo accusantium aut dicta modi
+      tempore ea iste quae cum nihil fugiat laborum. Tenetur, itaque quaerat?
+    </p> -->
+  </body>
+</html>

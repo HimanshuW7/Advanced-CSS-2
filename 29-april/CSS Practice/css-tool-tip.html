@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tool Tips</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      .tool-tip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted #000;
+      }
+
+      .tool-tip .tool-text {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        position: absolute;
+        z-index: -1;
+      }
+
+      .tool-tip:hover .tool-text {
+        visibility: visible;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tool Tips</h1>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate,
+      nihil.
+    </p>
+
+    <div class="tool-tip">
+      Hover Over Me
+      <span class="tool-text">Tool Tip Text</span>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eligendi!
+    </p>
+  </body>
+</html>

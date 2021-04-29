@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Effects 7</title>
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+
+      .image {
+        display: block;
+        width: 40%;
+        height: auto;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 40%;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: #008cba;
+      }
+
+      .container:hover .overlay {
+        opacity: 1;
+      }
+
+      .overlay-text {
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Image Effects 7</h1>
+
+    <div class="container">
+      <img
+        src="https://www.w3schools.com/css/img_avatar.png"
+        alt="Avtar"
+        class="image"
+      />
+      <div class="overlay">
+        <div class="overlay-text">Hello World</div>
+      </div>
+    </div>
+  </body>
+</html>

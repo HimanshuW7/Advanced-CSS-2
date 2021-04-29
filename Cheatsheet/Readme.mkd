@@ -2726,4 +2726,117 @@ For More **[Reference]('https://www.w3schools.com/css/css3_animations.asp')**
 
 ---
 
-33.
+33. *Tool Tips:*
+
+* **Basic Tooltip:**
+
+Create a tooltip that appears when the user moves the mouse over an element:
+
+``` *Example:*
+
+<style>
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+
+```
+
+---
+
+**Example Explained:**
+
+> **HTML:** Use a container element (like `<div>`) and add the `"tooltip"` class to it. When the user mouse over this `<div>`, it will show the tooltip text.
+
+The tooltip text is placed inside an inline element (like `<span>`) with `class="tooltiptext"`.
+
+> **CSS:** The `tooltip` class use `position:relative`, which is needed to position the tooltip text (`position:absolute`).
+
+**Note:** See examples below on how to position the tooltip.
+
+The tooltiptext class holds the actual tooltip text. It is hidden by default, and will be visible on hover (see below). We have also added some basic styles to it: 120px width, black background color, white text color, centered text, and 5px top and bottom padding.
+
+The CSS `border-radius` property is used to add rounded corners to the tooltip text.
+
+The `:hover` selector is used to show the tooltip text when the user moves the mouse over the `<div>` with `class="tooltip"`.
+
+---
+
+* **Tooltip Arrows:**
+
+To create an arrow that should appear from a specific side of the tooltip, add "empty" content after tooltip, with the pseudo-element class `::after` together with the `content` property. The arrow itself is created using borders. This will make the tooltip look like a speech bubble.
+
+This example demonstrates how to add an arrow to the bottom of the tooltip:
+
+``` *Bottom Arrow:*
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+```
+
+**Example Explained:**
+
+Position the arrow inside the tooltip: `top: 100%` will place the arrow at the bottom of the tooltip. `left: 50%` will center the arrow.
+
+**Note:** The `border-width` property specifies the size of the arrow. If you change this, also change the `margin-left` value to the same. This will keep the arrow centered.
+
+The `border-color` is used to transform the content into an arrow. We set the top border to black, and the rest to transparent. If all sides were black, you would end up with a black square box.
+
+---
+
+* **Fade In Tooltips (Animation):**
+
+If you want to fade in the tooltip text when it is about to be visible, you can use the CSS `transition` property together with the `opacity` property, and go from being completely invisible to 100% visible, in a number of specified seconds (1 second in our example):
+
+``` *Example:*
+
+.tooltip .tooltiptext {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+}
+
+```
+
+For More **[Reference]('https://www.w3schools.com/css/css_tooltip.asp')**
+
+---

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Effect-5</title>
+    <style>
+      img {
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+      }
+
+      #tl {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+      }
+
+      #tr {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+      }
+
+      #bl {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+      }
+
+      #br {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-size: 18px;
+      }
+
+      #md {
+        position: relative;
+      }
+
+      #c {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="md">
+      <img
+        src="https://www.w3schools.com/css/img_5terre_wide.jpg"
+        alt="Image"
+        width="1000px"
+        height="300px"
+        id="i-1"
+      />
+      <div id="tl">Top Left</div>
+      <div id="tr">Top Right</div>
+      <div id="bl">Bottom Left</div>
+      <div id="br">Bottom Right</div>
+      <div id="c">Center</div>
+    </div>
+  </body>
+</html>
