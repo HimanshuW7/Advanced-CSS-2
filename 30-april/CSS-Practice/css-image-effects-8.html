@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Image Effects 8</title>
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .container:hover .image {
+        opacity: 0.3;
+      }
+
+      .container:hover .middle {
+        opacity: 1;
+      }
+
+      .text {
+        background-color: #4caf50;
+        color: #fff;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Image Effects 8</h1>
+
+    <div class="container">
+      <img
+        src="https://www.w3schools.com/css/img_avatar.png"
+        alt="Avtar"
+        width="100%"
+        class="image"
+      />
+      <div class="middle">
+        <div class="text">Vin Diesel</div>
+      </div>
+    </div>
+  </body>
+</html>

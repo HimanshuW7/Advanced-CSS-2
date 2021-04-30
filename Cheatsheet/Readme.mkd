@@ -2840,3 +2840,102 @@ If you want to fade in the tooltip text when it is about to be visible, you can 
 For More **[Reference]('https://www.w3schools.com/css/css_tooltip.asp')**
 
 ---
+
+34. *CSS Image Reflections:*
+
+* The `box-reflect` property is used to create an image reflection.
+
+The value of the `box-reflect` property can be: `below`, `above`, `left` , or `right`.
+
+``` *Example:*
+
+Here we want the reflection below the image:
+
+img {
+  -webkit-box-reflect: below;
+}
+
+```
+
+``` *Example:*
+
+Here we want the reflection below the image:
+
+img {
+  -webkit-box-reflect: right;
+}
+
+```
+
+---
+
+* **CSS Reflection Offset:**
+
+To specify the gap between the image and the reflection, add the size of the gap to the `box-reflect` property.
+
+``` *Example:*
+
+Here we want the reflection below the image, with a 20px offset:
+
+img {
+  -webkit-box-reflect: below 20px;
+}
+
+```
+
+---
+
+* **CSS Reflection With Gradient:**
+
+We can also create a fade-out effect on the reflection.
+
+``` *Example:*
+
+Create a fade-out effect on the reflection:
+
+img {
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+```
+
+---
+
+35. *The CSS object-fit Property:*
+
+* The CSS `object-fit` property is used to specify how an `<img>` or `<video>` should be resized to fit its container.
+
+This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible".
+
+Here is where the `object-fit` property comes in. The `object-fit` property can take one of the following values:
+
+> `fill` - This is default. The image is resized to fill the given dimension. If necessary, the image will be stretched or squished to fit
+> `contain` - The image keeps its aspect ratio, but is resized to fit within the given dimension.
+> `cover` - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit.
+> `none` - The image is not resized.
+> `scale-down` - the image is scaled down to the smallest version of `none` or `contain`.
+
+For More **[Reference]('https://www.w3schools.com/css/css3_object-fit.asp')**
+
+---
+
+36. *Using the object-position Property:*
+
+* Let's say that the part of the image that is shown, is not positioned as we want. To position the image, we will use the object-position property.
+
+Here we will use the object-position property to position the image so that the great old building is in center:
+
+``` *Example:*
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 80% 100%;
+}
+
+```
+
+For More **[Reference]('https://www.w3schools.com/css/css3_object-position.asp')**
+
+---
