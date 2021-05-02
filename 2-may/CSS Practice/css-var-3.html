@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Var() -3</title>
+    <style>
+      :root {
+        --blue: #1e90ef;
+        --white: #fff;
+      }
+
+      body {
+        background-color: var(--blue);
+      }
+
+      h2 {
+        border-bottom: 2px solid var(--blue);
+      }
+
+      .container {
+        --font-size: 25px;
+      }
+
+      .container {
+        color: var(--blue);
+        background-color: var(--white);
+        padding: 20px;
+        font-size: var(--font-size);
+      }
+
+      @media only screen and (min-width: 450px) {
+        .container {
+          font-size: 50px;
+        }
+
+        :root {
+          --blue: lightblue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Var() - 3 Media Query and Var</h1>
+
+    <div class="container">
+      <h2>Lorem Ipsum</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quos
+        nesciunt autem accusantium ipsam dolore ipsa facere nihil illo delectus
+        doloremque aut, aperiam vitae corrupti, cumque inventore ratione quo
+        dolores.
+      </p>
+    </div>
+  </body>
+</html>

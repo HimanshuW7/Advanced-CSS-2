@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Var()</title>
+    <style>
+      :root {
+        --blue: #1e90ff;
+        --white: #fff;
+      }
+
+      body {
+        background-color: var(--blue);
+      }
+
+      h2 {
+        border-bottom: 2px solid var(--blue);
+      }
+
+      .container {
+        color: var(--blue);
+        background-color: var(--white);
+        padding: 20px;
+      }
+
+      .btn {
+        color: var(--blue);
+        background-color: var(--white);
+        border: 1px solid var(--blue);
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Var() Traditional Way and Global Variables</h1>
+
+    <div class="container">
+      <h2>Lorem Ipsum</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+        quis.
+      </p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptas
+      libero nostrum nihil enim distinctio tenetur. Rem nulla distinctio ipsum
+      vero cumque, autem assumenda perferendis tempore sequi porro similique
+      inventore?
+      <p>
+        <button class="btn">Yes</button>
+        <button class="btn">No</button>
+      </p>
+    </div>
+  </body>
+</html>

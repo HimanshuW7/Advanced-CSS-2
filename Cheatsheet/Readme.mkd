@@ -2939,3 +2939,819 @@ img {
 For More **[Reference]('https://www.w3schools.com/css/css3_object-position.asp')**
 
 ---
+
+37. *User Interface:*
+
+In this chapter you will learn about the following CSS user interface properties:
+
+> `resize`
+> `outline-offset`
+
+* **CSS Resizing:**
+
+The `resize` property specifies if (and how) an element should be resizable by the user.
+
+``` *Example:*
+
+div {
+  resize: horizontal;
+  overflow: auto;
+}
+
+```
+
+* The following example lets the user resize only the height of a `<div>` element:
+
+``` *Example:*
+
+div {
+  resize: vertical;
+  overflow: auto;
+}
+
+```
+
+* The following example lets the user resize both the height and width of a `<div>` element:
+
+``` *Example:*
+
+div {
+  resize: both;
+  overflow: auto;
+}
+
+```
+
+* In many browsers, `<textarea>` is resizable by default. Here, we have used the resize property to disable the resizability:
+
+``` *Example:*
+
+textarea {
+  resize: none;
+}
+
+```
+
+---
+
+* **CSS Outline Offset:**
+
+The `outline-offset` property adds space between an outline and the edge or border of an element.
+
+**Note:** `Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline.`
+
+The following example uses the `outline-offset` property to add space between the border and the outline:
+
+``` *Example:*
+
+div.ex1 {
+  margin: 20px;
+  border: 1px solid black;
+  outline: 4px solid red;
+  outline-offset: 15px;
+}
+
+div.ex2 {
+  margin: 10px;
+  border: 1px solid black;
+  outline: 5px dashed blue;
+  outline-offset: 5px;
+}
+
+```
+
+For More **[Reference]('https://www.w3schools.com/css/css3_user_interface.asp')**
+
+38. *Variables:*
+
+* The `var()` function is used to insert the value of a CSS variable.
+
+CSS variables have access to the DOM, which means that you can create variables with local or global scope, change the variables with JavaScript, and change the variables based on media queries.
+
+A good way to use CSS variables is when it comes to the colors of your design. Instead of copy and paste the same colors over and over again, you can place them in variables.
+
+---
+
+* **The Traditional Way:**
+
+The following example shows the traditional way of defining some colors in a style sheet (by defining the colors to use, for each specific element):
+
+``` *Example:**
+
+body { background-color: #1e90ff; }
+
+h2 { border-bottom: 2px solid #1e90ff; }
+
+.container {
+  color: #1e90ff;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #1e90ff;
+  border: 1px solid #1e90ff;
+  padding: 5px;
+}
+
+```
+
+---
+
+* **Syntax of the var() Function:**
+
+The `var()` function is used to insert the value of a CSS variable.
+
+The syntax of the `var()` function is as follows:
+
+`var(name, value)`
+
+| Value | Description                                              |
+| ----- | -------------------------------------------------------- |
+| name  | Required. The variable name (must start with two dashes) |
+| value | The fallback value (used if the variable is not found)   |
+
+**Note:** The variable name must begin with two dashes (--) and it is case sensitive!
+
+---
+
+* **How var() Works:**
+
+* First of all: CSS variables can have a global or local scope.
+
+Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
+
+To create a variable with global scope, declare it inside the `:root` selector. The `:root` selector matches the document's root element.
+
+To create a variable with local scope, declare it inside the selector that is going to use it.
+
+The following example is equal to the example above, but here we use the `var()` function.
+
+First, we declare two global variables (--blue and --white). Then, we use the `var()` function to insert the value of the variables later in the style sheet:
+
+``` *Example:*
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body { background-color: var(--blue); }
+
+h2 { border-bottom: 2px solid var(--blue); }
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+```
+
+---
+
+* **Advantages of using var() are:**
+
+> makes the code easier to read (more understandable)
+> makes it much easier to change the color values
+
+To change the blue and white color to a softer blue and white, you just need to change the two variable values:
+
+``` *Example:*
+
+:root {
+  --blue: #6495ed;
+  --white: #faf0e6;
+}
+
+body { background-color: var(--blue); }
+
+h2 { border-bottom: 2px solid var(--blue); }
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+```
+
+---
+
+* **CSS var() Function:**
+
+| Property | Description                         |
+| -------- | ----------------------------------- |
+| var()    | Inserts the value of a CSS variable |
+
+---
+
+* ###CSS Overriding Variables:
+
+* **Overriding Global Variables With Local Variables:**
+
+From the previous page we have learned that global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
+
+Look at the example from the previous page:
+
+``` *Example:*
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+```
+
+* **Sometimes we want the variables to change only in a specific section of the page.**
+
+Assume we want a different color of blue for button elements. Then, we can re-declare the `--blue` variable inside the button selector. When we use `var(--blue)` inside this selector, it will use the local `--blue` variable value declared here.
+
+We see that the local --blue variable will override the global --blue variable for the button elements:
+
+``` *Example:*
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  --blue: #0000ff;
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+```
+
+---
+
+* **Add a New Local Variable:**
+
+If a variable is to be used only one single place, we could also have declared a new local variable, like this:
+
+``` *Example:**
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  --button-blue: #0000ff;
+  background-color: var(--white);
+  color: var(--button-blue);
+  border: 1px solid var(--button-blue);
+  padding: 5px;
+}
+
+```
+
+---
+
+* ##CSS Using Variables in Media Queries:
+
+* **Using Variables in Media Queries:**
+
+Now we want to change a variable value inside a media query.
+
+**Tip:** `Media Queries are about defining different style rules for different devices (screens, tablets, mobile phones, etc.). You can learn more Media Queries in our Media Queries Chapter.`
+
+Here, we first declare a new local variable named `--fontsize` for the `.container`class. We set its value to 25 pixels. Then we use it in the `.container` class further down. Then, we create a `@media` rule that says "When the browser's width is 450px or wider, change the `--fontsize` variable value of the `.container` class to 50px."
+
+Here is the complete example:
+
+``` *Example:*
+
+/* Variable declarations */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+.container {
+  --fontsize: 25px;
+}
+
+/* Styles */
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+  font-size: var(--fontsize);
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    --fontsize: 50px;
+  }
+}
+
+```
+
+---
+
+* Here is another example where we also change the value of the --blue variable in the @media rule:
+
+``` *Example:*
+
+/* Variable declarations */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+.container {
+  --fontsize: 25px;
+}
+
+/* Styles */
+body {
+  background-color: var(--blue);
+}
+
+h2 {
+  border-bottom: 2px solid var(--blue);
+}
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+  font-size: var(--fontsize);
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    --fontsize: 50px;
+  }
+   :root {
+    --blue: lightblue;
+  }
+}
+
+```
+
+For More **[Reference]('https://www.w3schools.com/css/css3_variables.asp')**
+
+---
+
+39. *Flexbox:*
+
+* **CSS Flexbox Layout Module:**
+
+Before the Flexbox Layout module, there were four layout modes:
+
+> Block, for sections in a webpage
+> Inline, for text
+> Table, for two-dimensional table data
+> Positioned, for explicit position of an element
+
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+---
+
+* **Flexbox Elements:**
+
+To start using the Flexbox model, you need to first define a flex container.
+
+The element above represents a flex container (the blue area) with three flex items.
+
+``` *Example:*
+
+A flex container with three flex items:
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+
+```
+
+---
+
+* ##CSS Flex Container:
+
+* **Parent Element (Container):**
+
+Like we specified in the previous chapter, this is a flex container (the blue area) with three flex items:
+
+The flex container becomes flexible by setting the `display` property to `flex`:
+
+``` *Example:*
+
+.flex-container {
+  display: flex;
+}
+
+```
+
+* The flex container properties are:
+
+> flex-direction
+> flex-wrap
+> flex-flow
+> justify-content
+> align-items
+> align-content
+
+---
+
+* **The flex-direction Property:**
+
+The ``flex-direction` property defines in which direction the container wants to stack the flex items.
+
+``` *Example:*
+
+The `column` value stacks the flex items vertically (from top to bottom):
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+```
+
+``` *Example:*
+
+The `column-reverse` value stacks the flex items vertically (but from bottom to top):
+
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+```
+
+``` *Example:*
+
+The `row` value stacks the flex items horizontally (from left to right):
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+```
+
+``` *Example:*
+
+The `row-reverse` value stacks the flex items horizontally (but from right to left):
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+```
+
+---
+
+* **The flex-wrap Property:**
+
+The `flex-wrap` property specifies whether the flex items should wrap or not.
+
+The examples below have 12 flex items, to better demonstrate the `flex-wrap` property.
+
+``` *Example:*
+
+The `wrap` value specifies that the flex items will wrap if necessary:
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+```
+
+``` *Example:*
+
+The `nowrap` value specifies that the flex items will not wrap (this is default):
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+```
+
+``` *Example:*
+
+The `wrap-reverse` value specifies that the flexible items will wrap if necessary, in reverse order:
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+```
+
+---
+
+* **The flex-flow Property:**
+
+The `flex-flow` property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+
+```Example
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+```
+
+---
+
+* **The justify-content Property:**
+
+The `justify-content` property is used to align the flex items:
+
+``` *Example:*
+
+The `center` value aligns the flex items at the center of the container:
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+```
+
+``` *Example:*
+
+The `flex-start` value aligns the flex items at the beginning of the container (this is default):
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+```
+
+``` *Example:*
+
+The `flex-end` value aligns the flex items at the end of the container:
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+```
+
+``` *Example:*
+
+The `space-around` value displays the flex items with space before, between, and after the lines:
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+```
+
+``` *Example:*
+
+The `space-between` value displays the flex items with space between the lines:
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+```
+
+---
+
+* **The align-items Property:**
+
+The align-items property is used to align the flex items.
+
+In these examples we use a 200 pixels high container, to better demonstrate the align-items property.
+
+``` *Example:*
+
+The `center` value aligns the flex items in the middle of the container:
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+```
+
+``` *Example:*
+The `flex-start` value aligns the flex items at the top of the container:
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+}
+
+```
+
+``` *Example:*
+
+The `flex-end` value aligns the flex items at the bottom of the container:
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+}
+
+```
+
+``` *Example:*
+
+The `stretch` value stretches the flex items to fill the container (this is default):
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+}
+
+```
+
+``` *Example:*
+
+The `baseline` value aligns the flex items such as their baselines aligns:
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+}
+
+```
+
+**Note:** the example uses different font-size to demonstrate that the items gets aligned by the text baseline:
+
+The align-content Property
+The align-content property is used to align the flex lines.
+
+In these examples we use a 600 pixels high container, with the flex-wrap property set to wrap, to better demonstrate the align-content property.
+
+Example
+The space-between value displays the flex lines with equal space between them:
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+Example
+The space-around value displays the flex lines with space before, between, and after them:
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+Example
+The stretch value stretches the flex lines to take up the remaining space (this is default):
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+Example
+The center value displays display the flex lines in the middle of the container:
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+Example
+The flex-start value displays the flex lines at the start of the container:
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+Example
+The flex-end value displays the flex lines at the end of the container:
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+Perfect Centering
+In the following example we will solve a very common style problem: perfect centering.
+
+SOLUTION: Set both the justify-content and align-items properties to center, and the flex item will be perfectly centered:
+
+Example
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+The CSS Flexbox Container Properties
+The following table lists all the CSS Flexbox Container properties:
+
+Property	Description
+align-content	Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines
+align-items	Vertically aligns the flex items when the items do not use all available space on the cross-axis
+display	Specifies the type of box used for an HTML element
+flex-direction	Specifies the direction of the flexible items inside a flex container
+flex-flow	A shorthand property for flex-direction and flex-wrap
+flex-wrap	Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line
+justify-content	Horizontally aligns the flex items when the items do not use all available space on the main-axis
