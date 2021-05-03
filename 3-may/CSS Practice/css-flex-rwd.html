@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Rwd</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .flex-container {
+        display: flex;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .flex-item-left {
+        background-color: #f1f1f1;
+        padding: 10px;
+        flex: 50%;
+      }
+
+      .flex-item-right {
+        background-color: dodgerblue;
+        padding: 10px;
+        flex: 50%;
+      }
+
+      @media only screen and (min-width: 800px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex Rwd</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui pariatur
+      quisquam commodi repudiandae excepturi accusamus reiciendis eaque.
+      Incidunt, libero, nihil harum sequi minima magni atque sint quasi error
+      suscipit fuga.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, esse unde
+      nemo voluptatum voluptatibus nostrum. Saepe eaque debitis soluta
+      praesentium.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officiis
+      autem amet minus maxime reiciendis. Nostrum in consectetur amet
+      repellendus laborum suscipit magnam dicta assumenda. Ullam sit quae
+      blanditiis accusantium.
+    </p>
+
+    <div class="flex-container">
+      <div class="flex-item-left">1</div>
+      <div class="flex-item-right">2</div>
+    </div>
+  </body>
+</html>

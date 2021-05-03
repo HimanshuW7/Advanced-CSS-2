@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox 9</title>
+    <style>
+      .flex-container {
+        display: flex;
+        align-items: stretch;
+        background-color: #f1f1f1;
+      }
+
+      .flex-container > div {
+        background-color: dodgerblue;
+        color: #fff;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+
+      .md-1 {
+        order: 9;
+      }
+
+      .md-2 {
+        order: 1;
+      }
+
+      .md-3 {
+        order: 5;
+      }
+
+      .md-4 {
+        order: 2;
+      }
+
+      .md-5 {
+        order: 8;
+      }
+
+      .md-6 {
+        order: 6;
+      }
+
+      .md-7 {
+        order: 10;
+      }
+
+      .md-8 {
+        order: 4;
+      }
+
+      .md-9 {
+        order: 3;
+      }
+
+      .md-10 {
+        order: 7;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Flexbox 9</h1>
+
+    <div class="flex-container">
+      <div class="md-1">1</div>
+      <div class="md-2">2</div>
+      <div class="md-3">3</div>
+      <div class="md-4">4</div>
+      <div class="md-4">5</div>
+      <div class="md-4">6</div>
+      <div class="md-4">7</div>
+      <div class="md-4">8</div>
+      <div class="md-4">9</div>
+      <div class="md-4">10</div>
+    </div>
+  </body>
+</html>
