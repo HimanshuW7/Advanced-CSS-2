@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid 9</title>
+    <style>
+      .grid-item-1 {
+        grid-area: myArea;
+      }
+
+      .grid-container {
+        display: grid;
+        /* grid-template-areas: 'myArea myArea myArea myArea myArea'; */
+        /* grid-template-areas: 'myArea myArea . . .'; */
+        grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
+        grid-gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Grid 9</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+      assumenda fugiat facere inventore quod alias animi? Recusandae voluptatem
+      quidem, eveniet ab culpa sint vitae est dolor unde et. Modi, enim.
+    </p>
+
+    <div class="grid-container">
+      <div class="grid-item-1">1</div>
+      <div class="grid-item-2">2</div>
+      <div class="grid-item-3">3</div>
+      <div class="grid-item-4">4</div>
+      <div class="grid-item-5">5</div>
+      <div class="grid-item-7">7</div>
+    </div>
+  </body>
+</html>
