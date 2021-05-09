@@ -68,3 +68,21 @@
 * More details on CSS Specifity: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity')**
 
 ---
+
+5. *Margin Collapsing:*
+
+* ![Margin Collapsing](image-10.png)
+
+* For More **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing')**
+
+---
+
+6. *Shorthand Properties:*
+
+* ![Shorthand Properties](image-11.png)
+
+---
+
+7. *Block-Inline vs Inline Elements:*
+
+For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving-deeper-into-html#block-level-vs-inline-elements')**
