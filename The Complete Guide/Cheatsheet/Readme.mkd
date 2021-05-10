@@ -86,3 +86,35 @@
 7. *Block-Inline vs Inline Elements:*
 
 For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving-deeper-into-html#block-level-vs-inline-elements')**
+
+---
+
+8. *Pseudo Classes & Pseudo Elements:*
+
+* ![Pseudo Classes & Pseudo Elements](image-12.png)
+
+---
+
+9. *Points Worth to Remember:*
+
+* ![Points Worth to Remember](image-13.png)
+
+---
+
+10. *Useful Resources & Links:*
+
+* ![Summary](image-14.png)
+
+* CSS Box Model: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model')**
+
+* box-sizing: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing')**
+
+* More on height & width: **[Reference]('https://www.w3schools.com/css/css_dimension.asp')**
+
+* The display  Property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/display')**
+
+* Pseudo Classes on the MDN: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes')**
+
+* Dive deeper into Pseudo Elements: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements')**
+
+---
