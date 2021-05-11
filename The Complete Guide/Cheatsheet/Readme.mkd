@@ -118,3 +118,21 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 * Dive deeper into Pseudo Elements: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements')**
 
 ---
+
+11. *Classes or Ids:*
+
+* ![Classes or Ids](image-15.png)
+
+---
+
+12. *Useful Resources & Links:*
+
+* A discussion on "classes vs IDs": **[Reference]('https://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it')**
+
+* When is using `!important`  okay? =>: **[Reference]('https://css-tricks.com/when-using-important-is-the-right-choice')**
+
+* The `:not()`  pseudo class: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/:not')**
+
+* Can I Use: **[Reference]('https://caniuse.com/')**
+
+---
