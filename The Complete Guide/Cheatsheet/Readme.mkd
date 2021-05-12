@@ -135,4 +135,6 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 
 * Can I Use: **[Reference]('https://caniuse.com/')**
 
+* More on float: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/float')**
+
 ---
