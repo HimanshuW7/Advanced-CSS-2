@@ -138,3 +138,21 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 * More on float: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/float')**
 
 ---
+
+13. *Positioning & Useful Resources & Links:*
+
+* ![Wrap Up](image-16.png)
+
+* **Dive Deeper into Selected Topics**
+
+* Positioning theory: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning')**
+
+* More about the "position" property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/position')**
+
+* The z-index: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/z-index')**
+
+* The Stacking Context: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context')**
+
+* The "sticky" value and current browser support: **[Reference]('https://caniuse.com/#search=sticky')**
+
+---
