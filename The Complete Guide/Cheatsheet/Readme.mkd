@@ -156,3 +156,44 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 * The "sticky" value and current browser support: **[Reference]('https://caniuse.com/#search=sticky')**
 
 ---
+
+14. *The Background Property:*
+
+* ![The Background Property](image-17.png)
+
+---
+
+15. *Background Images & Images:*
+
+* ![Stacking Multiple Backgrounds](image-18.png)
+
+* ![Filters](image-19.png)
+
+* ![Summary](image-20.png)
+
+* **Useful Resources & Links**
+
+* The `background` Property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/background')**
+
+* Styling Images: **[Reference]('https://www.w3schools.com/css/css3_images.asp')**
+
+* Filters: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/filter')**
+
+* Styling SVG: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS')**
+
+---
+
+16. *Sizes & Units:*
+
+* **Where Units Matter?**
+
+* ![Where Units Matter](image-21.png)
+
+* **How Size is Calculated?**
+
+* ![How Size is Calculated](image-22.png)
+
+* **How is the Box Size for % Units Calculated?**
+
+* ![How is the Box Size for % Units Calculated](image-23.png)
+
