@@ -205,7 +205,7 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 
 * The third rule only apply if our element with the percentage unit is static or realtive and its look like its closest ancentor which is a block level element.
 
-* ![Rules to Remember(image-24.png)
+* ![Rules to Remember](image-24.png)
 
 * **Windows, Viewport Units & Scrollbars:**
 
@@ -216,7 +216,6 @@ After adding `vw` , you probably saw that the scrollbars appeared in case you ar
 In case you don't want to display these scrollbars, you can use one of these solutions:
 
 > Use `width: 100%`  instead of `vw: 100`
-
 > Add `overflow-x: hidden;`  to the `body` selector in the shared.css file to hide the horizontal scrollbar (or `overflow-y: hidden`  to hide the vertical scrollbar)
 
 Alternatively you could also use the `::-webkit-scrollbar` pseudo element. Simply add the following code to the shared.css file:
@@ -232,5 +231,19 @@ body: :-webkit-scrollbar {
 To make sure this works correctly on different browsers, you have to add additional code to it. This **[blog post]('https://web.archive.org/web/20180505112131/https://blogs.msdn.microsoft.com/kurlak/2013/11/03/hiding-vertical-scrollbars-with-pure-css-in-chrome-ie-6-firefox-opera-and-safari/')** nicely summarizes all the code needed right here.
 
 Make sure to follow these approaches in case you don't want to display the scrollbars on Windows machines.
+
+* **Choosing Right Unit:**
+
+* ![Rules to Remember](image-25.png)
+
+* ![Wrap Up](image-26.png)
+
+* **Useful Resources & Links:**
+
+Dive Deeper into Selected Topics
+
+* Font size properties and values: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/font-size')**
+
+* Viewport units and browser support: **[Reference]('https://caniuse.com/#search=vh')**
 
 ---
