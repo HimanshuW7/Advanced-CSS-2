@@ -247,3 +247,23 @@ Dive Deeper into Selected Topics
 * Viewport units and browser support: **[Reference]('https://caniuse.com/#search=vh')**
 
 ---
+
+17. *Useful Resources & Links:*
+
+* ![Rules to Remember](image-27.png)
+
+* JavaScript Basics: **[Reference]('https://academind.com/learn/javascript')**
+
+* JavaScript CSS Styles: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style')**
+
+* `classList` : **[Reference]('https://developer.mozilla.org/en-US/docs/Web/API/Element/classList')**
+
+---
+
+18. *Responsiveness:*
+
+* ![Absolute Lengths](image-28.png)
+
+* **[CSS Values]('https://www.w3.org/TR/css-values-3/#:~:text=5.2.-,Absolute%20Lengths%3A%20the%20cm%2C%20mm%2C%20Q%2C%20in,%2C%20pt%2C%20pc%2C%20px%20units')**
+
+* **[Compare Devices]('https://www.mydevice.io/#compare-devices')**
