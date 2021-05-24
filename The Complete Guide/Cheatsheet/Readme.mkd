@@ -281,3 +281,15 @@ Dive Deeper into Selected Topics
 * ![Summary](image-29.png)
 
 ---
+
+19. *Understanding Advanced Attribute Selectors:*
+
+* ![Absolute Lengths](image-30.png)
+
+* ![Summary](image-31.png)
+
+* Styling Form Elements: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms')**
+
+* Styling a `<select>`  Element: **[Reference]('https://stackoverflow.com/questions/1895476/how-to-style-a-select-dropdown-with-css-only-without-javascript')**
+
+---
