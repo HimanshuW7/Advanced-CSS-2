@@ -297,3 +297,25 @@ Dive Deeper into Selected Topics
 20. *Working with Text & Fonts:*
 
 * ![Generic Families & Fonts Families](image-32.png)
+
+* ![Font Display](image-33.png)
+
+* ![Summary](image-34.png)
+
+### Useful Resources & Links
+
+* **Dive Deeper into Selected Topics**
+
+* Web Safe Fonts: **[Reference]('https://www.cssfontstack.com/')**
+
+* Google Fonts: **[Reference]('https://fonts.google.com/')**
+
+* The "line-height" property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/line-height')**
+
+---
+
+21. *Flexbox:*
+
+* ![Understanding Flexbox](image-35.png)
+
+*
