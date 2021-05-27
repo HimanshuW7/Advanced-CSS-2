@@ -302,6 +302,8 @@ Dive Deeper into Selected Topics
 
 * ![Summary](image-34.png)
 
+---
+
 ### Useful Resources & Links
 
 * **Dive Deeper into Selected Topics**
@@ -318,4 +320,36 @@ Dive Deeper into Selected Topics
 
 * ![Understanding Flexbox](image-35.png)
 
-*
+* ![Main vs. Cross Axis](image-36.png)
+
+* ![Align Items & Justify Content](image-37.png)
+
+* **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox')**
+
+**Flexbox and the Z-Index:**
+
+In the position module we learned that adding the `z-index` to an element only has an effect, if the `position` property with a value different from `static` was applied to this element.
+
+One exception from this behaviour is flexbox: Applying the `z-index` to flex-items (so the elements inside of the flex-container) will change the order of these items even if no `position` property was applied.
+
+You will need the `z-index` for flex-items in the following assignment, so keep that special behaviour in mind.
+
+---
+
+* ![Understanding Flexbox (order)](image-38.png)
+
+* **Useful Resources & Links:**
+
+* *Dive Deeper into Selected Topics*
+
+* Flexbox and browser compatibility: **[Reference]('https://caniuse.com/#search=flexbox')**
+
+* The theory behind flexbox: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox')**
+
+* The flex container: **[Reference]('https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container')**
+
+---
+
+* ![Summary](image-39.png)
+
+---
