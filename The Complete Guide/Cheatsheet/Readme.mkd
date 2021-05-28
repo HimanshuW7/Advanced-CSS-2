@@ -353,3 +353,7 @@ You will need the `z-index` for flex-items in the following assignment, so keep 
 * ![Summary](image-39.png)
 
 ---
+
+22. *Grid:*
+
+* ![What is Grid?](image-40.png)
