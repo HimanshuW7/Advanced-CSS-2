@@ -357,3 +357,27 @@ You will need the `z-index` for flex-items in the following assignment, so keep 
 22. *Grid:*
 
 * ![What is Grid?](image-40.png)
+
+* ![Summary](image-41.png)
+
+* A really great article series on the CSS Grid: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout')**
+
+* A complete guide to CSS Grid: **[Reference]('https://css-tricks.com/snippets/css/complete-guide-grid/')**
+
+---
+
+23. *Transfrom Property:*
+
+* ![Rotating Elements into 3 Dimesions](image-42.png)
+
+* ![Summary](image-43.png)
+
+---
+
+* **Useful Resources & Links:**
+
+* CSS Transforms: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms')**
+
+* 3D Transforms: **[Reference]('https://desandro.github.io/3dtransforms/')**
+
+---
