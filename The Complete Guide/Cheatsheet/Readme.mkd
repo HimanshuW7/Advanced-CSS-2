@@ -381,3 +381,65 @@ You will need the `z-index` for flex-items in the following assignment, so keep 
 * 3D Transforms: **[Reference]('https://desandro.github.io/3dtransforms/')**
 
 ---
+
+24. *Transitions & Animations:*
+
+* ![Understanding and Applying Transitions](image-44.png)
+
+* **CSS "transition" Property Deep Dive:**
+
+The `transition`  property is used as see in the previous video:
+
+`transition: WHAT DURATION DELAY TIMING-FUNCTION;`
+
+Example:
+
+`transition: opacity 200ms 1s ease-out;`
+
+Can be translated to: "Animate any changes in the `opacity` property (for the element to which the `transition` property is applied) over a duration of 200ms. Start fast and end slow, also make sure to wait 1s before you start".
+
+Instead of this shorthand, you can also specify the four individual properties:
+
+> `transition-property`:  **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property')** => `transition-property: opacity;`
+> `transition-duration`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration')** => `transition-duration: 200ms;`
+> `transition-timing-function`:  **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function')** => `transition-timing-function: ease-out;`
+
+Possible timing function values are: `ease-out`, `ease-in`, `linear`, `cubic-bezier()`  and a couple of others. See the **above link** as well as the **next lecture** for more details.
+
+> `transition-delay`:  **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay')** => `transition-delay: 1s;`
+
+You can read the official MDN article on CSS transitions here: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions')**
+
+---
+
+* **CSS "animation" Property Deep Dive:**
+
+The `animation` property is used as see in the previous video:
+
+`animation: NAME DURATION DELAY TIMING-FUNCTION ITERATION DIRECTION FILL-MODE PLAY-STATE;`
+
+Example:
+
+`animation: wiggle 200ms 1s ease-out 8 alternate forwards running;`
+
+Can be translated to: "Play the wiggle keyframe set (animation) over a duration of **200ms**. Between two keyframes **start fast and end slow**, also make sure to **wait 1s before you start**. Play **8 animations** and **alternate** after each animation. Once you're done, **keep the final value** applied to the element. Oh, and you should be playing the animation - **not pausing**."
+
+Instead of this shorthand, you can also specify the individual properties:
+
+> `animation-name`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name')** => `animation-name: wiggle;`
+> `animation-duration`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration')** => `animation-duration: 200ms;`
+> `animation-timing-function`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function')** => `animation-timing-function: ease-out;`
+
+Possible timing function values are: ease-out , ease-in , linear , cubic-bezier()  and a couple of others. See the above link for more details.
+
+> `animation-delay`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay')** => `animation-delay: 1s;`
+> `animation-iteration-count`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count')** => `animation-iteration-count: 8;`
+> `animation-direction`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction')** => `animation-direction: alternate;`
+> `animation-fill-mode`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode')** => `animation-fill-mode: forwards;`
+> `animation-play-state`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state')** => `animation-play-state: running;`
+
+You can read the official MDN article on CSS animations here: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations')**
+
+* [!Summary](image-45.png)
+
+---
