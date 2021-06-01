@@ -443,3 +443,50 @@ You can read the official MDN article on CSS animations here: **[Reference]('htt
 * [!Summary](image-45.png)
 
 ---
+
+25. *Writing Future-Proof CSS Code:*
+
+* [!CSS Variables](image-46.png)
+
+* [!Understanding & Using Vendor Prefixes](image-47.png)
+
+* [!Support Queries](image-48.png)
+
+* [!Polyfills](image-49.png)
+
+* [!Eliminate Cross-Browser Inconsistencies](image-50.png)
+
+* [!Choosing Class Name Correctly](image-51.png)
+
+* [!Block Level Modifier (BEM)](image-52.png)
+
+* [!Vanilla CSS vs Frameworks](image-53.png)
+
+* [!Vanilla CSS vs Frameworks Differences](image-54.png)
+
+* [!Wrap Up](image-55.png)
+
+* **Useful Resources & Links:**
+
+> `CSS Modules & Working Groups`: **[Reference]('https://www.w3.org/TR/tr-groups-all#tr_Cascading_Style_Sheets__CSS__Working_Group')**
+> `CSS Variables`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables')**
+> `Vendor Prefixes`: **[Reference]('https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix')**
+> `Which Vendor Prefixes should you use?` => **[Reference]('http://shouldiprefix.com/')**
+> `@supports`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports')**
+> `BEM in Detail`: **[Reference]('http://getbem.com/introduction/')**
+> `An introduction to Bootstrap 4`: **[Reference]('https://academind.com/learn/css/bootstrap-4-tutorial/')**
+> `CSS Polyfills`: **[Reference]('https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills')**
+
+---
+
+26. *Introducing Sass (Syntactically Awesome Style Sheets):*
+
+* **Important: Installing Sass:**
+
+In the next lecture, we'll install Sass to work with it.
+
+In the lecture, I use ruby-sass for that. This approach might still work but it is **recommended to use a different approach** - you can find a fitting one for your operating system on this page: **[Reference]('https://sass-lang.com/install')**
+
+* [!What is Sass & Scss?](image-56.png)
+
+* [!Sass Features](image-57.png)
