@@ -57,15 +57,15 @@
 
 * ![Summary](image-9.png)
 
-* Complete MDN CSS Reference (don't learn this by heart!): **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Reference')**
+* Complete MDN CSS Reference (don't learn this by heart!): **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)**
 
-* Do you prefer reading? Find written CSS docs on MDN: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS')**
+* Do you prefer reading? Find written CSS docs on MDN: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS)**
 
-* Common CSS Properties Reference: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference')**
+* Common CSS Properties Reference: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)**
 
-* CSS Combinators: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors')**
+* CSS Combinators: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors)**
 
-* More details on CSS Specifity: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity')**
+* More details on CSS Specifity: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)**
 
 ---
 
@@ -73,7 +73,7 @@
 
 * ![Margin Collapsing](image-10.png)
 
-* For More **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing')**
+* For More **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)**
 
 ---
 
@@ -85,7 +85,7 @@
 
 7. *Block-Inline vs Inline Elements:*
 
-For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving-deeper-into-html#block-level-vs-inline-elements')**
+For More **[Reference](https://academind.com/learn/html/beginner-s-guide/diving-deeper-into-html#block-level-vs-inline-elements)**
 
 ---
 
@@ -105,17 +105,17 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 
 * ![Summary](image-14.png)
 
-* CSS Box Model: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model')**
+* CSS Box Model: **[Reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)**
 
-* box-sizing: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing')**
+* box-sizing: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)**
 
-* More on height & width: **[Reference]('https://www.w3schools.com/css/css_dimension.asp')**
+* More on height & width: **[Reference](https://www.w3schools.com/css/css_dimension.asp)**
 
-* The display  Property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/display')**
+* The display  Property: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/display)**
 
-* Pseudo Classes on the MDN: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes')**
+* Pseudo Classes on the MDN: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)**
 
-* Dive deeper into Pseudo Elements: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements')**
+* Dive deeper into Pseudo Elements: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)**
 
 ---
 
@@ -127,15 +127,15 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 
 12. *Useful Resources & Links:*
 
-* A discussion on "classes vs IDs": **[Reference]('https://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it')**
+* A discussion on "classes vs IDs": **[Reference](https://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it)**
 
-* When is using `!important`  okay? =>: **[Reference]('https://css-tricks.com/when-using-important-is-the-right-choice')**
+* When is using `!important`  okay? =>: **[Reference](https://css-tricks.com/when-using-important-is-the-right-choice)**
 
-* The `:not()`  pseudo class: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/:not')**
+* The `:not()`  pseudo class: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)**
 
-* Can I Use: **[Reference]('https://caniuse.com/')**
+* Can I Use: **[Reference](https://caniuse.com/)**
 
-* More on float: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/float')**
+* More on float: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/float)**
 
 ---
 
@@ -145,15 +145,15 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 
 * **Dive Deeper into Selected Topics**
 
-* Positioning theory: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning')**
+* Positioning theory: **[Reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning)**
 
-* More about the "position" property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/position')**
+* More about the "position" property: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/position)**
 
-* The z-index: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/z-index')**
+* The z-index: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)**
 
-* The Stacking Context: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context')**
+* The Stacking Context: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)**
 
-* The "sticky" value and current browser support: **[Reference]('https://caniuse.com/#search=sticky')**
+* The "sticky" value and current browser support: **[Reference](https://caniuse.com/#search=sticky)**
 
 ---
 
@@ -173,13 +173,13 @@ For More **[Reference]('https://academind.com/learn/html/beginner-s-guide/diving
 
 * **Useful Resources & Links**
 
-* The `background` Property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/background')**
+* The `background` Property: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/background)**
 
-* Styling Images: **[Reference]('https://www.w3schools.com/css/css3_images.asp')**
+* Styling Images: **[Reference](https://www.w3schools.com/css/css3_images.asp)**
 
-* Filters: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/filter')**
+* Filters: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)**
 
-* Styling SVG: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS')**
+* Styling SVG: **[Reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)**
 
 ---
 
@@ -228,7 +228,7 @@ body: :-webkit-scrollbar {
 
 ```
 
-To make sure this works correctly on different browsers, you have to add additional code to it. This **[blog post]('https://web.archive.org/web/20180505112131/https://blogs.msdn.microsoft.com/kurlak/2013/11/03/hiding-vertical-scrollbars-with-pure-css-in-chrome-ie-6-firefox-opera-and-safari/')** nicely summarizes all the code needed right here.
+To make sure this works correctly on different browsers, you have to add additional code to it. This **[blog post](https://web.archive.org/web/20180505112131/https://blogs.msdn.microsoft.com/kurlak/2013/11/03/hiding-vertical-scrollbars-with-pure-css-in-chrome-ie-6-firefox-opera-and-safari/)** nicely summarizes all the code needed right here.
 
 Make sure to follow these approaches in case you don't want to display the scrollbars on Windows machines.
 
@@ -242,9 +242,9 @@ Make sure to follow these approaches in case you don't want to display the scrol
 
 Dive Deeper into Selected Topics
 
-* Font size properties and values: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/font-size')**
+* Font size properties and values: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)**
 
-* Viewport units and browser support: **[Reference]('https://caniuse.com/#search=vh')**
+* Viewport units and browser support: **[Reference](https://caniuse.com/#search=vh)**
 
 ---
 
@@ -252,11 +252,11 @@ Dive Deeper into Selected Topics
 
 * ![Rules to Remember](image-27.png)
 
-* JavaScript Basics: **[Reference]('https://academind.com/learn/javascript')**
+* JavaScript Basics: **[Reference](https://academind.com/learn/javascript)**
 
-* JavaScript CSS Styles: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style')**
+* JavaScript CSS Styles: **[Reference](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style)**
 
-* `classList` : **[Reference]('https://developer.mozilla.org/en-US/docs/Web/API/Element/classList')**
+* `classList` : **[Reference](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)**
 
 ---
 
@@ -264,19 +264,19 @@ Dive Deeper into Selected Topics
 
 * ![Absolute Lengths](image-28.png)
 
-* **[CSS Values]('https://www.w3.org/TR/css-values-3/#:~:text=5.2.-,Absolute%20Lengths%3A%20the%20cm%2C%20mm%2C%20Q%2C%20in,%2C%20pt%2C%20pc%2C%20px%20units')**
+* **[CSS Values](https://www.w3.org/TR/css-values-3/#:~:text=5.2.-,Absolute%20Lengths%3A%20the%20cm%2C%20mm%2C%20Q%2C%20in,%2C%20pt%2C%20pc%2C%20px%20units)**
 
-* **[Compare Devices]('https://www.mydevice.io/#compare-devices')**
+* **[Compare Devices]('https://www.mydevice.io/#compare-devices)**
 
 ### Dive Deeper into Selected Topics
 
-* Absolute lengths on W3.org: **[Reference]('https://www.w3.org/TR/css-values-3/#absolute-lengths')**
+* Absolute lengths on W3.org: **[Reference]('https://www.w3.org/TR/css-values-3/#absolute-lengths)**
 
-* More about device sizes: **[Reference]('https://bjango.com/articles/min-device-pixel-ratio/')**
+* More about device sizes: **[Reference](https://bjango.com/articles/min-device-pixel-ratio/)**
 
-* Media queries theory: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries')**
+* Media queries theory: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)**
 
-* Applying media queries: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries')**
+* Applying media queries: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)**
 
 * ![Summary](image-29.png)
 
@@ -288,9 +288,9 @@ Dive Deeper into Selected Topics
 
 * ![Summary](image-31.png)
 
-* Styling Form Elements: **[Reference]('https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms')**
+* Styling Form Elements: **[Reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms)**
 
-* Styling a `<select>`  Element: **[Reference]('https://stackoverflow.com/questions/1895476/how-to-style-a-select-dropdown-with-css-only-without-javascript')**
+* Styling a `<select>`  Element: **[Reference](https://stackoverflow.com/questions/1895476/how-to-style-a-select-dropdown-with-css-only-without-javascript)**
 
 ---
 
@@ -308,11 +308,11 @@ Dive Deeper into Selected Topics
 
 * **Dive Deeper into Selected Topics**
 
-* Web Safe Fonts: **[Reference]('https://www.cssfontstack.com/')**
+* Web Safe Fonts: **[Reference](https://www.cssfontstack.com/)**
 
-* Google Fonts: **[Reference]('https://fonts.google.com/')**
+* Google Fonts: **[Reference](https://fonts.google.com/)**
 
-* The "line-height" property: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/line-height')**
+* The "line-height" property: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)**
 
 ---
 
@@ -324,7 +324,7 @@ Dive Deeper into Selected Topics
 
 * ![Align Items & Justify Content](image-37.png)
 
-* **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox')**
+* **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)**
 
 **Flexbox and the Z-Index:**
 
@@ -342,11 +342,11 @@ You will need the `z-index` for flex-items in the following assignment, so keep 
 
 * *Dive Deeper into Selected Topics*
 
-* Flexbox and browser compatibility: **[Reference]('https://caniuse.com/#search=flexbox')**
+* Flexbox and browser compatibility: **[Reference](https://caniuse.com/#search=flexbox)**
 
-* The theory behind flexbox: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox')**
+* The theory behind flexbox: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)**
 
-* The flex container: **[Reference]('https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container')**
+* The flex container: **[Reference](https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container)**
 
 ---
 
@@ -360,9 +360,9 @@ You will need the `z-index` for flex-items in the following assignment, so keep 
 
 * ![Summary](image-41.png)
 
-* A really great article series on the CSS Grid: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout')**
+* A really great article series on the CSS Grid: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)**
 
-* A complete guide to CSS Grid: **[Reference]('https://css-tricks.com/snippets/css/complete-guide-grid/')**
+* A complete guide to CSS Grid: **[Reference](https://css-tricks.com/snippets/css/complete-guide-grid/)**
 
 ---
 
@@ -376,9 +376,9 @@ You will need the `z-index` for flex-items in the following assignment, so keep 
 
 * **Useful Resources & Links:**
 
-* CSS Transforms: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms')**
+* CSS Transforms: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms)**
 
-* 3D Transforms: **[Reference]('https://desandro.github.io/3dtransforms/')**
+* 3D Transforms: **[Reference](https://desandro.github.io/3dtransforms/)**
 
 ---
 
@@ -400,15 +400,15 @@ Can be translated to: "Animate any changes in the `opacity` property (for the el
 
 Instead of this shorthand, you can also specify the four individual properties:
 
-> `transition-property`:  **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property')** => `transition-property: opacity;`
-> `transition-duration`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration')** => `transition-duration: 200ms;`
-> `transition-timing-function`:  **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function')** => `transition-timing-function: ease-out;`
+> `transition-property`:  **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property)** => `transition-property: opacity;`
+> `transition-duration`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration)** => `transition-duration: 200ms;`
+> `transition-timing-function`:  **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)** => `transition-timing-function: ease-out;`
 
 Possible timing function values are: `ease-out`, `ease-in`, `linear`, `cubic-bezier()`  and a couple of others. See the **above link** as well as the **next lecture** for more details.
 
-> `transition-delay`:  **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay')** => `transition-delay: 1s;`
+> `transition-delay`:  **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay)** => `transition-delay: 1s;`
 
-You can read the official MDN article on CSS transitions here: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions')**
+You can read the official MDN article on CSS transitions here: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)**
 
 ---
 
@@ -423,22 +423,21 @@ Example:
 `animation: wiggle 200ms 1s ease-out 8 alternate forwards running;`
 
 Can be translated to: "Play the wiggle keyframe set (animation) over a duration of **200ms**. Between two keyframes **start fast and end slow**, also make sure to **wait 1s before you start**. Play **8 animations** and **alternate** after each animation. Once you're done, **keep the final value** applied to the element. Oh, and you should be playing the animation - **not pausing**."
+Instead of this shorthand, you can aso specify the individual properties:
 
-Instead of this shorthand, you can also specify the individual properties:
-
-> `animation-name`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name')** => `animation-name: wiggle;`
-> `animation-duration`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration')** => `animation-duration: 200ms;`
-> `animation-timing-function`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function')** => `animation-timing-function: ease-out;`
+> `animation-name`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)** => `animation-name: wiggle;`
+> `animation-duration`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration)** => `animation-duration: 200ms;`
+> `animation-timing-function`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)** => `animation-timing-function: ease-out;`
 
 Possible timing function values are: ease-out , ease-in , linear , cubic-bezier()  and a couple of others. See the above link for more details.
 
-> `animation-delay`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay')** => `animation-delay: 1s;`
-> `animation-iteration-count`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count')** => `animation-iteration-count: 8;`
-> `animation-direction`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction')** => `animation-direction: alternate;`
-> `animation-fill-mode`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode')** => `animation-fill-mode: forwards;`
-> `animation-play-state`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state')** => `animation-play-state: running;`
+> `animation-delay`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay)** => `animation-delay: 1s;`
+> `animation-iteration-count`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count)** => `animation-iteration-count: 8;`
+> `animation-direction`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction)** => `animation-direction: alternate;`
+> `animation-fill-mode`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)** => `animation-fill-mode: forwards;`
+> `animation-play-state`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)** => `animation-play-state: running;`
 
-You can read the official MDN article on CSS animations here: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations')**
+You can read the official MDN article on CSS animations here: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)**
 
 * [!Summary](image-45.png)
 
@@ -468,14 +467,14 @@ You can read the official MDN article on CSS animations here: **[Reference]('htt
 
 * **Useful Resources & Links:**
 
-> `CSS Modules & Working Groups`: **[Reference]('https://www.w3.org/TR/tr-groups-all#tr_Cascading_Style_Sheets__CSS__Working_Group')**
-> `CSS Variables`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables')**
-> `Vendor Prefixes`: **[Reference]('https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix')**
-> `Which Vendor Prefixes should you use?` => **[Reference]('http://shouldiprefix.com/')**
-> `@supports`: **[Reference]('https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports')**
-> `BEM in Detail`: **[Reference]('http://getbem.com/introduction/')**
-> `An introduction to Bootstrap 4`: **[Reference]('https://academind.com/learn/css/bootstrap-4-tutorial/')**
-> `CSS Polyfills`: **[Reference]('https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills')**
+> `CSS Modules & Working Groups`: **[Reference](https://www.w3.org/TR/tr-groups-all#tr_Cascading_Style_Sheets__CSS__Working_Group)**
+> `CSS Variables`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)**
+> `Vendor Prefixes`: **[Reference](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix)**
+> `Which Vendor Prefixes should you use?` => **[Reference](http://shouldiprefix.com/)**
+> `@supports`: **[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports)**
+> `BEM in Detail`: **[Reference](http://getbem.com/introduction/')**
+> `An introduction to Bootstrap 4`: **[Reference](https://academind.com/learn/css/bootstrap-4-tutorial/)**
+> `CSS Polyfills`: **[Reference](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)**
 
 ---
 
@@ -485,7 +484,7 @@ You can read the official MDN article on CSS animations here: **[Reference]('htt
 
 In the next lecture, we'll install Sass to work with it.
 
-In the lecture, I use ruby-sass for that. This approach might still work but it is **recommended to use a different approach** - you can find a fitting one for your operating system on this page: **[Reference]('https://sass-lang.com/install')**
+In the lecture, I use ruby-sass for that. This approach might still work but it is **recommended to use a different approach** - you can find a fitting one for your operating system on this page: **[Reference](https://sass-lang.com/install)**
 
 * [!What is Sass & Scss?](image-56.png)
 
@@ -493,20 +492,20 @@ In the lecture, I use ruby-sass for that. This approach might still work but it 
 
 * **Useful Resources & Links:**
 
-* `Dive deeper into Sass`: **[Reference]('https://sass-lang.com/guide')**
+* `Dive deeper into Sass`: **[Reference](https://sass-lang.com/guide)**
 
 * [!Next Steps]('image-58')
 
 * `Bonus: More Content!:**
 
-I got a lot of **other high-quality & bestselling courses** you might be interested in: **[Refernece]('https://academind.com/learn/our-courses/')**
+I got a lot of **other high-quality & bestselling courses** you might be interested in: **[Refernece]('https://academind.com/learn/our-courses/)**
 
 I'd love to welcome you on board of any of these courses! :-)
 
-Also don't forget to **subscribe to my newsletter** on **[Refernece]('https://academind.com/')** to receive the latest updates and exclusive offers!
+Also don't forget to **subscribe to my newsletter** on **[Refernece](https://academind.com/)** to receive the latest updates and exclusive offers!
 
-And in case you didn't know: On the same page as well as on my **[YouTube channel]('https://www.youtube.com/c/academind')** I got loads of **additional tutorials**.
+And in case you didn't know: On the same page as well as on my **[YouTube channel](https://www.youtube.com/c/academind)** I got loads of **additional tutorials**.
 
-Last but not least - I **tweet on** **[@maxedapps]('https://twitter.com/maxedapps')** and on **[@academind_real]('https://twitter.com/academind_real')**, would love to see you there!
+Last but not least - I **tweet on** **[@maxedapps](https://twitter.com/maxedapp')** and on **[@academind_real](https://twitter.com/academind_real)**, would love to see you there!
 
 ---
