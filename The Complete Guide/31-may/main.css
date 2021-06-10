@@ -181,14 +181,10 @@
   padding: 1rem;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  -webkit-transition: opacity 200ms ease-out,
-    transform 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  -moz-transition: opacity 200ms ease-out,
-    transform 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  -ms-transition: opacity 200ms ease-out,
-    transform 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  -o-transition: opacity 200ms ease-out,
-    transform 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -webkit-transition: opacity 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out;
+  -ms-transition: opacity 200ms ease-out;
+  -o-transition: opacity 200ms ease-out;
   -webkit-transform: translateY(-3rem);
   -moz-transform: translateY(-3rem);
   -ms-transform: translateY(-3rem);
