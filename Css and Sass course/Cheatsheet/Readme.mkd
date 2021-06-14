@@ -1,0 +1,11 @@
+# Markdown Cheatsheet for CSS Features
+
+## [Cheatsheet Markdown](https://www.markdownguide.org/cheat-sheet/)
+
+*Ctrl + shift + v* **For Preview*
+
+1. *Building the Header- clip-path*
+
+* ![x axis & epsilon](./images/image-1.png)
+
+* ![x axis & epsilon](./images/image-2.png)
