@@ -4,8 +4,76 @@
 
 *Ctrl + shift + v* **For Preview*
 
-1. *Building the Header- clip-path*
+1. *Building the Header- clip-path:*
 
 * ![x axis & epsilon](./images/image-1.png)
 
 * ![x axis & epsilon](./images/image-2.png)
+
+---
+
+2. *How CSS Works - A Look Behind the Scenes:*
+
+* ![Three Pillars](./images/image-3.jpg)
+
+* ![Three Pillars](./images/image-4.jpg)
+
+* ![CSS Terminology](./images/image-5.jpg)
+
+* ![CSS Terminology](./images/image-6.jpg)
+
+* ![CSS Terminology](./images/image-7.jpg)
+
+* ![CSS Terminology](./images/image-8.jpg)
+
+* ![CSS Terminology](./images/image-9.jpg)
+
+* ![CSS Terminology](./images/image-10.jpg)
+
+* ![CSS Terminology](./images/image-11.jpg)
+
+* ![CSS Terminology](./images/image-12.jpg)
+
+* ![Summary](./images/image-13.jpg)
+
+---
+
+* **[Specificity](https://codepen.io/smiley555/pen/mdWaXze?editors=1100)**
+
+* ![Value Processing](./images/image-14.jpg)
+
+* ![Value Processing](./images/image-15.jpg)
+
+* ![Value Processing](./images/image-16.jpg)
+
+* ![Value Processing](./images/image-17.jpg)
+
+* ![Summary](./images/image-18.jpg)
+
+---
+
+* ![Inheritance](./images/image-18.jpg)
+
+* ![Inheritance](./images/image-19.jpg)
+
+* ![Summary](./images/image-20.jpg)
+
+---
+
+* ![Remember ?](./images/image-21.jpg)
+
+* ![The Visual Formatting Model](./images/image-22.jpg)
+
+* ![1. The Box Model](./images/image-23.jpg)
+
+* ![1. The Box Model: Heights And Widths](./images/image-24.jpg)
+
+* ![1. The Box Model With box-sizing: border-box](./images/image-25.jpg)
+
+* ![2. Box Types: Inline, Block-Level And Inline-Block](./images/image-26.jpg)
+
+* ![3. Position Schemes: Normal Flow, Absolute Positioning And Floats](./images/image-27.jpg)
+
+* ![Stacking Contexts](./images/image-28.jpg)
+
+---
