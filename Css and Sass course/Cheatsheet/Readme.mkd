@@ -6,10 +6,11 @@
 
 1. *Building the Header- clip-path:*
 
-* ![x axis & epsilon](./images/image-1.png)
+* ![x axis & epsilon](./images/image-1.jpg)
 
-* ![x axis & epsilon](./images/image-2.png)
+* ![x axis & epsilon](./images/image-2.jpg)
 
+---
 ---
 
 2. *How CSS Works - A Look Behind the Scenes:*
@@ -76,4 +77,34 @@
 
 * ![Stacking Contexts](./images/image-28.jpg)
 
+---
+
+* ![The Think - Build - Architect Mindset](./images/image-29.jpg)
+
+* ![Think About The Layout](./images/image-30.jpg)
+
+* ![Building The Meaning Class Names](./images/image-31.jpg)
+
+* ![Building The Meaning Class Names](./images/image-32.jpg)
+
+* ![Architecting With Files And Folders](./images/image-33.jpg)
+
+---
+---
+
+3. *Sass (Syntactically Awesome Style Sheets):*
+
+* **[Reference](https://sass-lang.com/)**
+
+* ![Sass](./images/image-34.jpg)
+
+* ![Main Sass Features](./images/image-35.jpg)
+
+* ![Sass And Scss](./images/image-36.jpg)
+
+* ![Node Js](./images/image-37.jpg)
+
+* **[Sass/Scss Practice](https://codepen.io/smiley555/pen/poeGbmY?editors=1100)**
+
+---
 ---
