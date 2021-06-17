@@ -108,3 +108,12 @@
 
 ---
 ---
+
+4. *Advanced CSS And Scss:*
+
+* ![Basic Responsives Designs Principles](./images/image-38.jpg)
+
+* ![Layout Types](./images/image-39.jpg)
+
+---
+---
