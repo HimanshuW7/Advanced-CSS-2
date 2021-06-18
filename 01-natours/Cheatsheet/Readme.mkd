@@ -115,5 +115,7 @@
 
 * ![Layout Types](./images/image-39.jpg)
 
+* ![Custom Grid Floats](./images/image-34.jpg)
+
 ---
 ---
