@@ -115,7 +115,33 @@
 
 * ![Layout Types](./images/image-39.jpg)
 
-* ![Custom Grid Floats](./images/image-34.jpg)
+* ![Custom Grid Floats](./images/image-40.jpg)
+
+* ![Responsive Design Strategies](./images/image-41.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-42.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-43.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-44.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-45.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-46.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-47.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-48.jpg)
+
+* ![Responsive Design Strategies: Max-Width And Min-Width](./images/image-49.jpg)
+
+* ![Is Mobile First Right For You?](./images/image-50.jpg)
+
+* ![Select Our Breakpoints: The Options](./images/image-51.jpg)
+
+* ![Select Our Breakpoints: A Good Approach](./images/image-52.jpg)
+
+* ![Select Our Breakpoints: A Good Approach](./images/image-53.jpg)
 
 ---
 ---
