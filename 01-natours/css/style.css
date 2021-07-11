@@ -1,3 +1,18 @@
+/*
+0 - 600px:           Phone
+600 - 900px:         Tablet portrait
+900 - 1200px:        Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px +:            Big desktop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1rem = 16px
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -35,6 +50,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 60%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
@@ -120,7 +144,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: .15;
+  opacity: 0.15;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
@@ -505,7 +529,7 @@ body {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     backface-visibility: hidden;
-    transition: all .5s; }
+    transition: all 0.5s; }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {
@@ -518,7 +542,7 @@ body {
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all .5s;
+    transition: all 0.5s;
     backface-visibility: hidden; }
   .story:hover .story__caption {
     opacity: 1;
@@ -571,7 +595,7 @@ body {
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
-    content: "";
+    content: '';
     display: table;
     clear: both; }
   .row [class^="col-"] {
