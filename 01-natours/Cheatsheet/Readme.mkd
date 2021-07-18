@@ -143,5 +143,9 @@
 
 * ![Select Our Breakpoints: A Good Approach](./images/image-53.jpg)
 
+* ![Responsive Images](./images/image-54.jpg)
+
+* ![Responsive Images](./images/image-55.jpg)
+
 ---
 ---
