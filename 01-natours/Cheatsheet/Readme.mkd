@@ -149,5 +149,7 @@
 
 * ![Responsive Images](./images/image-56.jpg)
 
+* ![Responsive Images](./images/image-57.jpg)
+
 ---
 ---
