@@ -153,3 +153,29 @@
 
 ---
 ---
+
+5. *Flexbox:*
+
+* ![A True Revolution Flexbox](./images/image-58.jpg)
+
+* ![Main Flexbox Concepts](./images/image-59.jpg)
+
+* ![Flexbox Properties Overview](./images/image-60.jpg)
+
+---
+---
+
+6. *Grid:*
+
+* ![A Whole New Mindset Grid](./images/image-61.jpg)
+
+* ![A Whole New Mindset Grid](./images/image-62.jpg)
+
+* ![CSS Grid Terminology](./images/image-63.jpg)
+
+* ![CSS Grid Terminology](./images/image-64.jpg)
+
+* ![CSS Grid Properties Overview](./images/image-65.jpg)
+
+---
+---
