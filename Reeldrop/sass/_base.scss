@@ -1,0 +1,51 @@
+$color-primary: #0073ae;
+
+$bar--1-color: #f4d7b1;
+$bar--2-color: #fcc26e;
+$bar--3-color: #ffab00;
+
+$selection-color: #efd0aa;
+
+@mixin bars {
+  &__bar-1 {
+    background: $bar--1-color;
+  }
+
+  &__bar-2 {
+    background: $bar--2-color;
+  }
+
+  &__bar-3 {
+    background: $bar--3-color;
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+::selection {
+  background: $selection-color;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-column-gap: 0.7rem;
+}
