@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACL,YAAY,EAAE,GAAG;EACjB,UAAU,EAAE,gBAAgB;EAC5B,KAAK,EAAE,MAAM;EACb,UAAU,EAAE,WAAW",
+"sources": ["../../sass/3-modules/widget.sass"],
+"names": [],
+"file": "widget.css"
+}

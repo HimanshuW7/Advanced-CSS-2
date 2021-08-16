@@ -1,0 +1,76 @@
+// CONTAINER
+
+header
+  text-align: center
+  margin-bottom: 30px
+
+.wrapper
+  +outer-container
+  padding: 30px
+  background: white
+  margin-top: 30px
+  +cascade($pink)
+
+section
+  background: transparentize($teal, 0.9)
+  padding: 15px
+  margin-bottom: 30px
+  +clearfix
+
+#example1
+  article
+    +span-columns(6)
+
+#example2
+  aside
+    +span-columns(2)
+
+  article
+    +span-columns(10)
+    +omega
+
+  .item1
+    +span-columns(4)
+
+  .item2
+    +span-columns(8)
+    +omega
+
+  .item3
+    +span-columns(6)
+
+  .item4
+    +span-columns(6)
+    +omega
+
+#example3
+  aside
+    +span-columns(4)
+
+  article
+    +span-columns(8)
+
+    div
+      +span-columns(4 of 8)
+
+#example4
+  article
+    +span-columns(4)
+    +shift(4)
+
+#example5
+  li
+    +span-columns(2)
+    +omega(6n)
+
+#example6
+  li
+    +span-columns(2)
+    +omega(6n)
+
+    +media($tablet)
+      +span-columns(4)
+      +omega(2n)
+
+    +media($mobile)
+      +span-columns(4)

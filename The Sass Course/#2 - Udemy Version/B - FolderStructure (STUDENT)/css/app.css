@@ -1,0 +1,26 @@
+/* PLUGINS */
+/* BASE STYLES */
+body {
+  background: pink;
+  color: #fff;
+  width: 90vh; }
+
+h1 {
+  font-family: Georgia, Times, serif; }
+
+p {
+  font-family: Helvetica, Arial, sans-serif; }
+
+/* LAYOUTS */
+#header {
+  border: 1px solid #000;
+  padding: 40px;
+  margin: 0 auto; }
+
+/* MODULES */
+.box {
+  height: 100px;
+  width: 100px;
+  background: yellow; }
+
+/*# sourceMappingURL=app.css.map */

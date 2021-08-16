@@ -1,0 +1,35 @@
+// COMMON
+
+body
+  font-family: $monospace
+  font-size: $base-size
+  background: $pink
+
+.brand
+  +hide-text
+  background-image: url('../../img/bourbon-logo.png')
+  backgrund-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  height: 56px
+  margin: $gutter auto
+
+h2
+  font-size: $base-size * 1.8
+  font-weight: normal
+  text-align: center
+
+h3
+  @extend h2
+  background: tint($blue, 20%)
+  color: #fff
+  padding: 10px 0
+  font-size: $base-size * 1.4
+  text-transform: uppercase
+
+section
+  +clearfix
+
+footer
+  text-align: center
+  color: lighten($pink, 15%)

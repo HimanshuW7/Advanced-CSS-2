@@ -1,0 +1,44 @@
+// FORMS
+
+// INPUTS
+
+#{$all-text-inputs}
+  position: relative
+  padding: 10px
+  font-size: $base-size
+  border: 1px solid #333
+  box-shadow: -4px 4px 0 #444
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover}
+  border-color: #333
+  outline-color: $success
+  box-shadow: -6px 6px 0 #222
+
+#{$all-text-inputs-focus}::placeholder,
+#{$all-text-inputs-hover}::placeholder
+  color: #888
+
+// buttons inputs
+
+#{$all-buttons}
+  background: $pink
+  font-size: $base-size
+  font-weight: normal
+  padding: 10px
+  border: 1px solid shade($pink, 10%)
+  box-shadow: 4px 4px 0 shade($pink, 20%)
+  color: #fff
+
+#{$all-buttons-hover},
+#{$all-buttons-focus}
+  outline: none
+  border: 1px solid shade($pink, 10%)
+  cursor: pointer
+
+#{$all-buttons-active}
+  outline: none
+  position: relative
+  top: 2px
+  left: -2px
+  box-shadow: -2px 2px 0 shade($pink, 30%)

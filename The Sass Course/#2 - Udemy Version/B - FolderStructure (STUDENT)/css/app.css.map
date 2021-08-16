@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;AAEA,IAAI;EACF,UAAU,ECOE,IAAI;EDNhB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;;AAEb,EAAE;EACA,WAAW,ECDM,qBAAqB;;ADGxC,CAAC;EACC,WAAW,ECHW,4BAA4B;;;ACRpD,OAAO;EACL,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,MAAM;;;ACHhB,IAAI;EACF,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,UAAU,EFEE,MAAM",
+"sources": ["../sass/1-base/base.sass","../sass/_variables.sass","../sass/2-layouts/header.sass","../sass/3-modules/box.sass"],
+"names": [],
+"file": "app.css"
+}
