@@ -1,6 +1,0 @@
-{
-  "vscode-office.viewAbsoluteLocal": true,
-  "compile-hero.disable-compile-files-on-did-save-code": true,
-  "files.autoSave": "afterDelay",
-  "Scss2css.compileOnSave": false
-}
